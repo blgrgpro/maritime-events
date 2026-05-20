@@ -1,3 +1,23 @@
+export type EventType = "conference" | "expo" | "summit" | "workshop" | "forum" | "awards";
+export type AccessType = "open" | "paid" | "invitation-only";
+export type AttendeeFocus = "shipowners" | "investors" | "startups" | "government" | "mixed";
+export type NetworkingLevel = "Low" | "Medium" | "High";
+
+export interface ContactPerson {
+  name: string;
+  role?: string;
+  email?: string;
+  phone?: string;
+  linkedin?: string;
+}
+
+export interface Edition {
+  year: number;
+  date: string;
+  venue?: string;
+  status: "past" | "upcoming";
+}
+
 export interface MaritimeEvent {
   id: string;
   slug: string;
@@ -7,15 +27,18 @@ export interface MaritimeEvent {
   countryCode: string;
   date: string;
   dateSort: string;
-  sectors: string[];
-  primarySector: string;
+  categories: string[];
+  primaryCategory: string;
   attendance: { min: number; max: number };
-  importanceScore: number;
-  dealRelevanceScore: number;
+  eventType: EventType;
+  accessType: AccessType;
+  attendeeFocus: AttendeeFocus;
+  networkingLevel: NetworkingLevel;
   venue: string;
   organizer: string;
   website: string;
   description: string;
+  importanceForFounders: string;
   whoAttends: {
     shipowners: number;
     investors: number;
@@ -23,16 +46,6 @@ export interface MaritimeEvent {
     corporates: number;
     regulators: number;
   };
-  networkingLevel: "Low" | "Medium" | "High";
-  importanceExplanation: string;
-  dealRelevanceExplanation: string;
+  contact?: ContactPerson;
+  editions?: Edition[];
 }
-
-export type Sector =
-  | "Shipping"
-  | "Offshore Wind"
-  | "Ports"
-  | "Maritime Tech"
-  | "Finance";
-
-export type ImportanceFilter = "low" | "medium" | "high";

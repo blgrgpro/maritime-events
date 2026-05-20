@@ -13,26 +13,23 @@ export default function Nav() {
             <span className="font-semibold text-slate-900 text-sm tracking-tight">
               Maritime Events
             </span>
-            <span className="text-xs font-medium text-slate-400 border border-slate-200 rounded-full px-2 py-0.5 ml-1">
+            <span className="text-xs font-medium text-slate-400 border border-slate-200 rounded-full px-2 py-0.5 ml-1 hidden sm:inline">
               Europe
             </span>
           </Link>
 
-          <div className="flex items-center gap-1">
+          <div className="flex items-center gap-4">
+            <span className="text-xs text-slate-400 hidden sm:block">
+              34 events · 10 countries
+            </span>
             <Link
-              href="/"
-              className="text-sm text-slate-600 hover:text-slate-900 px-3 py-2 rounded-lg hover:bg-slate-100 transition-colors"
-            >
-              Events
-            </Link>
-            <a
-              href="https://github.com"
+              href="https://maritime-venture.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-lg transition-colors"
+              className="text-sm font-medium text-blue-600 hover:text-blue-700 transition-colors"
             >
-              Submit Event
-            </a>
+              Maritime Venture →
+            </Link>
           </div>
         </div>
       </div>
