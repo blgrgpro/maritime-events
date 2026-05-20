@@ -16,8 +16,13 @@ export function generateStaticParams() {
   return events.map((e) => ({ slug: e.slug }));
 }
 
-export function generateMetadata({ params }: { params: { slug: string } }) {
-  const event = events.find((e) => e.slug === params.slug);
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params;
+  const event = events.find((e) => e.slug === slug);
   if (!event) return {};
   return {
     title: `${event.name} — Maritime Events Europe`,
@@ -80,12 +85,13 @@ function NetworkingBadge({ level }: { level: "Low" | "Medium" | "High" }) {
   );
 }
 
-export default function EventDetailPage({
+export default async function EventDetailPage({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }) {
-  const event = events.find((e) => e.slug === params.slug);
+  const { slug } = await params;
+  const event = events.find((e) => e.slug === slug);
   if (!event) notFound();
 
   const attendeeEntries = Object.entries(event.whoAttends) as [
