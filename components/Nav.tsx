@@ -20,7 +20,7 @@ export default function Nav() {
 
           <div className="flex items-center gap-4">
             <span className="text-xs text-slate-400 hidden sm:block">
-              34 events · 10 countries
+              26 events · 10 countries
             </span>
           </div>
         </div>

@@ -5,7 +5,7 @@ import IndustryUpdates from "@/components/IndustryUpdates";
 
 const STATS = [
   { icon: Globe,        value: "10",    label: "Countries" },
-  { icon: CalendarDays, value: "34",    label: "Events" },
+  { icon: CalendarDays, value: "26",    label: "Events" },
   { icon: Users2,       value: "200K+", label: "Total Attendees" },
   { icon: Tag,          value: "10",    label: "Categories" },
 ];
@@ -19,7 +19,7 @@ export default function HomePage() {
             <div className="inline-flex items-center gap-2 bg-blue-50 border border-blue-200 rounded-full px-3 py-1 mb-6">
               <span className="w-1.5 h-1.5 rounded-full bg-blue-500 animate-pulse" />
               <span className="text-xs font-semibold text-blue-700 tracking-wide uppercase">
-                2025 – 2027 Calendar
+                2026 – 2027 Calendar
               </span>
             </div>
 
