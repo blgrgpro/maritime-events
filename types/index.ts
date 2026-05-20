@@ -2,6 +2,7 @@ export type EventType = "conference" | "expo" | "summit" | "workshop" | "forum" 
 export type AccessType = "open" | "paid" | "invitation-only";
 export type AttendeeFocus = "shipowners" | "investors" | "startups" | "government" | "mixed";
 export type NetworkingLevel = "Low" | "Medium" | "High";
+export type UpdateCategory = "order" | "sustainability" | "technology" | "partnership" | "regulation";
 
 export interface ContactPerson {
   name: string;
@@ -38,7 +39,8 @@ export interface MaritimeEvent {
   organizer: string;
   website: string;
   description: string;
-  importanceForFounders: string;
+  importanceForUs: string;
+  importanceForEcosystem: string;
   whoAttends: {
     shipowners: number;
     investors: number;
@@ -48,4 +50,15 @@ export interface MaritimeEvent {
   };
   contact?: ContactPerson;
   editions?: Edition[];
+}
+
+export interface IndustryUpdate {
+  id: string;
+  company: string;
+  initial: string;
+  color: string;
+  headline: string;
+  description: string;
+  date: string;
+  category: UpdateCategory;
 }

@@ -52,39 +52,33 @@ function FilterSelect({ value, onChange, options, placeholder }: SelectProps) {
 }
 
 export default function EventGrid({ events }: Props) {
-  const [search,       setSearch]       = useState("");
-  const [country,      setCountry]      = useState("");
-  const [category,     setCategory]     = useState("");
-  const [eventSize,    setEventSize]    = useState("");
-  const [focus,        setFocus]        = useState("");
-  const [eventType,    setEventType]    = useState("");
-  const [accessType,   setAccessType]   = useState("");
-  const [networking,   setNetworking]   = useState("");
-  const [filtersOpen,  setFiltersOpen]  = useState(false);
+  const [search,      setSearch]      = useState("");
+  const [country,     setCountry]     = useState("");
+  const [category,    setCategory]    = useState("");
+  const [eventSize,   setEventSize]   = useState("");
+  const [focus,       setFocus]       = useState("");
+  const [filtersOpen, setFiltersOpen] = useState(false);
 
-  const activeCount = [country, category, eventSize, focus, eventType, accessType, networking]
-    .filter(Boolean).length;
+  const activeCount = [country, category, eventSize, focus].filter(Boolean).length;
 
   const filtered = useMemo(() => {
-    return events.filter((e) => {
-      const q = search.toLowerCase();
-      if (q && !e.name.toLowerCase().includes(q) &&
-               !e.city.toLowerCase().includes(q) &&
-               !e.country.toLowerCase().includes(q)) return false;
-      if (country   && e.country !== country) return false;
-      if (category  && !e.categories.includes(category)) return false;
-      if (eventSize && !matchesSize(e, eventSize)) return false;
-      if (focus     && e.attendeeFocus !== focus) return false;
-      if (eventType && e.eventType !== eventType) return false;
-      if (accessType && e.accessType !== accessType) return false;
-      if (networking && e.networkingLevel !== networking) return false;
-      return true;
-    });
-  }, [events, search, country, category, eventSize, focus, eventType, accessType, networking]);
+    return events
+      .filter((e) => {
+        const q = search.toLowerCase();
+        if (q && !e.name.toLowerCase().includes(q) &&
+                 !e.city.toLowerCase().includes(q) &&
+                 !e.country.toLowerCase().includes(q)) return false;
+        if (country   && e.country !== country) return false;
+        if (category  && !e.categories.includes(category)) return false;
+        if (eventSize && !matchesSize(e, eventSize)) return false;
+        if (focus     && e.attendeeFocus !== focus) return false;
+        return true;
+      })
+      .sort((a, b) => a.dateSort.localeCompare(b.dateSort));
+  }, [events, search, country, category, eventSize, focus]);
 
   function clearAll() {
-    setSearch(""); setCountry(""); setCategory(""); setEventSize("");
-    setFocus(""); setEventType(""); setAccessType(""); setNetworking("");
+    setSearch(""); setCountry(""); setCategory(""); setEventSize(""); setFocus("");
   }
 
   return (
@@ -142,7 +136,7 @@ export default function EventGrid({ events }: Props) {
 
           {/* Expanded filters */}
           {filtersOpen && (
-            <div className="mt-3 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2">
+            <div className="mt-3 grid grid-cols-2 sm:grid-cols-4 gap-2">
               <FilterSelect
                 value={country} onChange={setCountry}
                 options={countries.map((c) => ({ value: c, label: c }))}
@@ -156,10 +150,10 @@ export default function EventGrid({ events }: Props) {
               <FilterSelect
                 value={eventSize} onChange={setEventSize}
                 options={[
-                  { value: "100-500",   label: "Small (100–500)" },
-                  { value: "500-2000",  label: "Medium (500–2K)" },
-                  { value: "2000-10000",label: "Large (2K–10K)" },
-                  { value: "10000+",    label: "Mega (10K+)" },
+                  { value: "100-500",    label: "Small (100–500)" },
+                  { value: "500-2000",   label: "Medium (500–2K)" },
+                  { value: "2000-10000", label: "Large (2K–10K)" },
+                  { value: "10000+",     label: "Mega (10K+)" },
                 ]}
                 placeholder="Event Size"
               />
@@ -173,36 +167,6 @@ export default function EventGrid({ events }: Props) {
                   { value: "mixed",      label: "Mixed" },
                 ]}
                 placeholder="Attendee Focus"
-              />
-              <FilterSelect
-                value={eventType} onChange={setEventType}
-                options={[
-                  { value: "conference", label: "Conference" },
-                  { value: "expo",       label: "Exhibition" },
-                  { value: "summit",     label: "Summit" },
-                  { value: "forum",      label: "Forum" },
-                  { value: "awards",     label: "Awards" },
-                  { value: "workshop",   label: "Workshop" },
-                ]}
-                placeholder="Event Type"
-              />
-              <FilterSelect
-                value={accessType} onChange={setAccessType}
-                options={[
-                  { value: "open",             label: "Free / Open" },
-                  { value: "paid",             label: "Paid Entry" },
-                  { value: "invitation-only",  label: "Invite Only" },
-                ]}
-                placeholder="Access"
-              />
-              <FilterSelect
-                value={networking} onChange={setNetworking}
-                options={[
-                  { value: "High",   label: "High Networking" },
-                  { value: "Medium", label: "Medium Networking" },
-                  { value: "Low",    label: "Low Networking" },
-                ]}
-                placeholder="Networking"
               />
             </div>
           )}

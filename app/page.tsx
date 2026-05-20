@@ -1,12 +1,13 @@
 import { Anchor, Globe, CalendarDays, Users2, Tag } from "lucide-react";
 import { events } from "@/data/events";
 import EventGrid from "@/components/EventGrid";
+import IndustryUpdates from "@/components/IndustryUpdates";
 
 const STATS = [
-  { icon: Globe,        value: "10",   label: "Countries" },
-  { icon: CalendarDays, value: "34",   label: "Events" },
-  { icon: Users2,       value: "200K+",label: "Total Attendees" },
-  { icon: Tag,          value: "10",   label: "Categories" },
+  { icon: Globe,        value: "10",    label: "Countries" },
+  { icon: CalendarDays, value: "34",    label: "Events" },
+  { icon: Users2,       value: "200K+", label: "Total Attendees" },
+  { icon: Tag,          value: "10",    label: "Categories" },
 ];
 
 export default function HomePage() {
@@ -30,20 +31,7 @@ export default function HomePage() {
 
             <p className="text-lg text-slate-500 max-w-xl leading-relaxed">
               The complete directory of European maritime industry events —
-              from mega trade shows to exclusive founder forums.
-            </p>
-
-            <p className="text-sm text-slate-400 mt-3">
-              Curated for{" "}
-              <a
-                href="https://maritime-venture.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-500 hover:text-blue-600 underline underline-offset-2"
-              >
-                maritime founders
-              </a>{" "}
-              building the next generation of ocean solutions.
+              from mega trade shows to exclusive industry forums.
             </p>
           </div>
 
@@ -60,6 +48,8 @@ export default function HomePage() {
       </section>
 
       <EventGrid events={events} />
+
+      <IndustryUpdates />
     </>
   );
 }

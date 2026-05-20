@@ -161,28 +161,30 @@ export default async function EventDetailPage({
             <p className="text-slate-700 text-sm leading-relaxed">{event.description}</p>
           </div>
 
-          {/* Why it matters for founders */}
+          {/* Why it matters for us */}
           <div className="bg-gradient-to-br from-blue-50 to-indigo-50 border border-blue-200 rounded-2xl p-6">
             <div className="flex items-center gap-2 mb-3">
               <div className="w-7 h-7 bg-blue-600 rounded-lg flex items-center justify-center flex-shrink-0">
                 <Rocket className="w-3.5 h-3.5 text-white" />
               </div>
               <h2 className="text-sm font-semibold text-blue-900">
-                Why This Matters for Maritime Founders
+                Why This Matters for Us
               </h2>
             </div>
-            <p className="text-blue-800 text-sm leading-relaxed">{event.importanceForFounders}</p>
-            <p className="text-xs text-blue-500 mt-3">
-              Intelligence from{" "}
-              <a
-                href="https://maritime-venture.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline underline-offset-2 hover:text-blue-700"
-              >
-                maritime-venture.com
-              </a>
-            </p>
+            <p className="text-blue-800 text-sm leading-relaxed">{event.importanceForUs}</p>
+          </div>
+
+          {/* Why it matters for the ecosystem */}
+          <div className="bg-gradient-to-br from-emerald-50 to-teal-50 border border-emerald-200 rounded-2xl p-6">
+            <div className="flex items-center gap-2 mb-3">
+              <div className="w-7 h-7 bg-emerald-600 rounded-lg flex items-center justify-center flex-shrink-0">
+                <Rocket className="w-3.5 h-3.5 text-white" />
+              </div>
+              <h2 className="text-sm font-semibold text-emerald-900">
+                Why This Matters for the Ecosystem
+              </h2>
+            </div>
+            <p className="text-emerald-800 text-sm leading-relaxed">{event.importanceForEcosystem}</p>
           </div>
 
           {/* Editions timeline */}

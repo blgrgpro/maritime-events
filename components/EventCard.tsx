@@ -21,48 +21,29 @@ const CATEGORY_STYLES: Record<string, string> = {
   "Maritime Sustainability & Decarbonisation": "bg-emerald-50 text-emerald-700 border-emerald-200",
 };
 
-const EVENT_TYPE_LABELS: Record<string, string> = {
-  conference: "Conference", expo: "Exhibition", summit: "Summit",
-  workshop: "Workshop", forum: "Forum", awards: "Awards",
-};
-
-const ACCESS_STYLES: Record<string, string> = {
-  open: "bg-emerald-100 text-emerald-700",
-  paid: "bg-slate-100 text-slate-600",
-  "invitation-only": "bg-purple-100 text-purple-700",
-};
-
-const NETWORKING_DOT: Record<string, string> = {
-  High: "bg-blue-500", Medium: "bg-amber-400", Low: "bg-slate-300",
-};
-
 function formatAttendance(min: number, max: number): string {
   const fmt = (n: number) => n >= 1000 ? `${Math.round(n / 1000)}K` : `${n}`;
   return `${fmt(min)} – ${fmt(max)}`;
 }
 
+function truncate(text: string, max = 100): string {
+  return text.length <= max ? text : text.slice(0, max).trimEnd() + "…";
+}
+
 export default function EventCard({ event }: { event: MaritimeEvent }) {
   return (
     <Link href={`/events/${event.slug}`} className="group block h-full">
-      <div className="bg-white border border-slate-200 rounded-2xl p-5 h-full hover:border-blue-300 hover:shadow-lg hover:shadow-blue-50 transition-all duration-200 flex flex-col gap-4">
+      <div className="bg-white border border-slate-200 rounded-2xl p-5 h-full hover:border-blue-300 hover:shadow-lg hover:shadow-blue-50 transition-all duration-200 flex flex-col gap-3">
 
-        {/* Top row: type badge + access + country */}
-        <div className="flex items-center justify-between gap-2 flex-wrap">
-          <div className="flex items-center gap-1.5">
-            <span className="text-xs font-medium bg-slate-100 text-slate-600 rounded-md px-2 py-0.5">
-              {EVENT_TYPE_LABELS[event.eventType]}
-            </span>
-            <span className={`text-xs font-medium rounded-md px-2 py-0.5 ${ACCESS_STYLES[event.accessType]}`}>
-              {event.accessType === "invitation-only" ? "Invite only" : event.accessType === "paid" ? "Paid" : "Free"}
-            </span>
-          </div>
+        {/* Top row: country flag */}
+        <div className="flex items-center justify-between gap-2">
           <div className="flex items-center gap-1.5 text-sm text-slate-500">
             <span>{FLAGS[event.countryCode] ?? "🌍"}</span>
             <span className="text-xs">{event.country}</span>
           </div>
         </div>
 
-        {/* Event name */}
+        {/* Event name + location + date */}
         <div>
           <h3 className="font-semibold text-slate-900 leading-snug group-hover:text-blue-600 transition-colors">
             {event.name}
@@ -78,6 +59,11 @@ export default function EventCard({ event }: { event: MaritimeEvent }) {
             </div>
           </div>
         </div>
+
+        {/* Description snippet */}
+        <p className="text-xs text-slate-500 leading-relaxed">
+          {truncate(event.description, 110)}
+        </p>
 
         {/* Category tags */}
         <div className="flex flex-wrap gap-1.5">
@@ -98,17 +84,13 @@ export default function EventCard({ event }: { event: MaritimeEvent }) {
           )}
         </div>
 
-        {/* Footer: attendance + networking */}
-        <div className="mt-auto pt-3 border-t border-slate-100 flex items-center justify-between">
+        {/* Footer: attendance */}
+        <div className="mt-auto pt-3 border-t border-slate-100">
           <div className="flex items-center gap-1.5 text-xs text-slate-500">
             <Users className="w-3 h-3" />
             <span className="font-medium text-slate-700">
               {formatAttendance(event.attendance.min, event.attendance.max)}
             </span>
-          </div>
-          <div className="flex items-center gap-1.5">
-            <div className={`w-2 h-2 rounded-full ${NETWORKING_DOT[event.networkingLevel]}`} />
-            <span className="text-xs text-slate-500">{event.networkingLevel} networking</span>
           </div>
         </div>
       </div>

@@ -22,14 +22,6 @@ export default function Nav() {
             <span className="text-xs text-slate-400 hidden sm:block">
               34 events · 10 countries
             </span>
-            <Link
-              href="https://maritime-venture.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-sm font-medium text-blue-600 hover:text-blue-700 transition-colors"
-            >
-              Maritime Venture →
-            </Link>
           </div>
         </div>
       </div>
