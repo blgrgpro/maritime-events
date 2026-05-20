@@ -4,6 +4,24 @@ export type AttendeeFocus = "shipowners" | "investors" | "startups" | "governmen
 export type NetworkingLevel = "Low" | "Medium" | "High";
 export type UpdateCategory = "order" | "sustainability" | "technology" | "partnership" | "regulation";
 
+export interface NewsItem {
+  title: string;
+  url: string;
+  source: string;
+  date: string;
+}
+
+export interface MaritimeNewsItem {
+  id: string;
+  title: string;
+  url: string;
+  source: string;
+  date: string;
+  summary: string;
+  category: string;
+  categoryColor: string;
+}
+
 export interface ContactPerson {
   name: string;
   role?: string;
@@ -57,8 +75,6 @@ export interface IndustryUpdate {
   company: string;
   initial: string;
   color: string;
-  headline: string;
-  description: string;
-  date: string;
   category: UpdateCategory;
+  newsItems: NewsItem[];
 }

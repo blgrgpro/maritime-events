@@ -2,10 +2,11 @@ import { Anchor, Globe, CalendarDays, Users2, Tag } from "lucide-react";
 import { events } from "@/data/events";
 import EventGrid from "@/components/EventGrid";
 import IndustryUpdates from "@/components/IndustryUpdates";
+import MaritimeNews from "@/components/MaritimeNews";
 
 const STATS = [
   { icon: Globe,        value: "10",    label: "Countries" },
-  { icon: CalendarDays, value: "26",    label: "Events" },
+  { icon: CalendarDays, value: "43",    label: "Events" },
   { icon: Users2,       value: "200K+", label: "Total Attendees" },
   { icon: Tag,          value: "10",    label: "Categories" },
 ];
@@ -50,6 +51,7 @@ export default function HomePage() {
       <EventGrid events={events} />
 
       <IndustryUpdates />
+      <MaritimeNews />
     </>
   );
 }
