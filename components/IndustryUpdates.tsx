@@ -1,22 +1,6 @@
 import { ExternalLink } from "lucide-react";
 import { industryUpdates } from "@/data/updates";
 
-const CATEGORY_STYLES: Record<string, string> = {
-  order:          "bg-blue-50 text-blue-700 border-blue-200",
-  sustainability: "bg-emerald-50 text-emerald-700 border-emerald-200",
-  technology:     "bg-violet-50 text-violet-700 border-violet-200",
-  partnership:    "bg-amber-50 text-amber-700 border-amber-200",
-  regulation:     "bg-red-50 text-red-700 border-red-200",
-};
-
-const CATEGORY_LABELS: Record<string, string> = {
-  order:          "Fleet & Orders",
-  sustainability: "Sustainability",
-  technology:     "Technology",
-  partnership:    "Partnership",
-  regulation:     "Regulation",
-};
-
 export default function IndustryUpdates() {
   return (
     <section className="bg-white border-t border-slate-200 py-12">
@@ -43,9 +27,6 @@ export default function IndustryUpdates() {
                 </div>
                 <div className="min-w-0">
                   <p className="text-sm font-semibold text-slate-900 truncate">{company.company}</p>
-                  <span className={`text-xs font-medium border rounded-full px-2 py-0.5 ${CATEGORY_STYLES[company.category]}`}>
-                    {CATEGORY_LABELS[company.category]}
-                  </span>
                 </div>
               </div>
 
