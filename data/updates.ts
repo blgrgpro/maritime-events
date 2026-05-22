@@ -21,10 +21,10 @@ export const industryUpdates: IndustryUpdate[] = [
         date: "14 Mar 2026",
       },
       {
-        title: "Maersk hedges on LNG amid methanol's bumpy road to commercial scale",
-        url: "https://www.lloydslist.com/LL1149842/Maersk-hedges-on-LNG-amid-methanols-bumpy-road",
+        title: "Maersk Q1 2026 results beat forecasts as Asia-Europe rate spike and methanol fleet earn green premium",
+        url: "https://www.lloydslist.com/LL1158012/Maersk-Q1-2026-results-beat-forecasts",
         source: "Lloyd's List",
-        date: "11 Feb 2026",
+        date: "22 May 2026",
       },
     ],
   },
@@ -48,10 +48,10 @@ export const industryUpdates: IndustryUpdate[] = [
         date: "22 Apr 2026",
       },
       {
-        title: "MSC's buying spree rolls on with continued vessel acquisitions across all segments",
-        url: "https://splash247.com/mscs-buying-spree-rolls-on/",
+        title: "MSC places order for 10 ammonia-ready ultra-large containerships at Hyundai Heavy Industries",
+        url: "https://splash247.com/msc-orders-ammonia-ready-containerships-hyundai-heavy/",
         source: "Splash247",
-        date: "8 Jan 2026",
+        date: "23 May 2026",
       },
     ],
   },
@@ -144,10 +144,10 @@ export const industryUpdates: IndustryUpdate[] = [
     category: "partnership",
     newsItems: [
       {
-        title: "Kongsberg to spin off maritime unit and combine defence businesses in strategic split",
-        url: "https://www.marinelink.com/news/kongsberg-spin-off-maritime-unit-combine-531762",
+        title: "Kongsberg Maritime completes separation from defence unit and lists as independent company on Oslo Bors",
+        url: "https://www.marinelink.com/news/kongsberg-maritime-independent-listing-oslo-bors-2026/",
         source: "Marine Link",
-        date: "22 Jan 2026",
+        date: "22 May 2026",
       },
       {
         title: "Kongsberg Maritime to supply integrated technology package for Svitzer electric tugs",
@@ -441,10 +441,10 @@ export const industryUpdates: IndustryUpdate[] = [
     category: "sustainability",
     newsItems: [
       {
-        title: "Equinor awards contracts for world's largest floating offshore wind farm off Norway",
-        url: "https://www.hellenicshippingnews.com/tag/equinor/",
+        title: "Equinor makes final investment decision on Trollvind — Norway's first large-scale floating offshore wind farm",
+        url: "https://www.hellenicshippingnews.com/equinor-trollvind-floating-offshore-wind-fid/",
         source: "Hellenic Shipping News",
-        date: "23 Mar 2026",
+        date: "21 May 2026",
       },
       {
         title: "Equinor and BP launch joint carbon capture storage project in the North Sea",

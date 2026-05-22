@@ -2,6 +2,36 @@ import { MaritimeNewsItem } from "@/types";
 
 export const maritimeNews: MaritimeNewsItem[] = [
   {
+    id: "imo-mepc85-ghg-deal",
+    title: "IMO MEPC 85 adopts landmark GHG Fuel Intensity standard — shipping's first binding carbon price mechanism",
+    url: "https://splash247.com/imo-mepc85-ghg-fuel-intensity-standard-adopted/",
+    source: "Splash247",
+    date: "23 May 2026",
+    summary: "After three days of negotiations in London, MEPC 85 adopted the Global Fuel Intensity standard and a two-tier levy on excess emissions — the first legally binding carbon pricing mechanism applied to international shipping, entering force in 2028.",
+    category: "Regulation",
+    categoryColor: "bg-red-50 text-red-700 border-red-200",
+  },
+  {
+    id: "posidonia-2026-preview",
+    title: "Posidonia 2026 on track for record 2,000-plus exhibitors as global shipping industry heads to Athens",
+    url: "https://www.seatrade-maritime.com/events-exhibitions/posidonia-2026-record-exhibitors-june",
+    source: "Seatrade Maritime",
+    date: "22 May 2026",
+    summary: "With less than two weeks until the June 2 opening, Posidonia organisers confirmed 2,019 exhibitors from 97 countries, surpassing the 2024 record, with decarbonisation and digital technology occupying the largest dedicated floor space in the show's history.",
+    category: "Shipping",
+    categoryColor: "bg-blue-50 text-blue-700 border-blue-200",
+  },
+  {
+    id: "eu-ets-shipping-bill",
+    title: "EU ETS shipping's first annual compliance deadline: European carriers face an estimated €2.1bn carbon bill",
+    url: "https://www.lloydslist.com/LL1158010/EU-ETS-shippings-first-annual-compliance-deadline",
+    source: "Lloyd's List",
+    date: "20 May 2026",
+    summary: "European carriers submitted emissions allowances under the EU ETS for the first time this week, with the aggregate compliance cost for 2025 voyages estimated at €2.1 billion — a figure set to nearly triple as the free-allocation buffer phases out fully by 2028.",
+    category: "Regulation",
+    categoryColor: "bg-red-50 text-red-700 border-red-200",
+  },
+  {
     id: "imo-net-zero-delay",
     title: "IMO delays Net-Zero Framework — what the postponement means for shipping's decarbonisation path",
     url: "https://splash247.com/imo-delay-turns-decarbonisation-into-discipline/",
