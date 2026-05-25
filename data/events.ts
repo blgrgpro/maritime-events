@@ -682,9 +682,9 @@ export const events: MaritimeEvent[] = [
     venue: "Church House Conference Centre, Westminster, London",
     organizer: "IMO / BIMCO",
     website: "https://www.imo.org/en/MediaCentre/Events",
-    description: "An urgent post-MEPC 85 industry workshop convened by IMO and BIMCO to provide practical guidance on implementing the new Global Fuel Intensity standard and two-tier GHG levy — announced on 24 May 2026, one day after adoption. Covers fuel compliance pathways, levy calculation methodologies, credit trading mechanics, and transition support frameworks for smaller operators.",
-    importanceForUs: "MEPC 85 created the most significant new compliance obligation in maritime history. This is where flag states, shipowners, and fuel suppliers will receive the technical detail needed to plan their response — and where the interpretation debates that will shape market demand for green technology over the next five years will begin in earnest.",
-    importanceForEcosystem: "The IMO GHG framework will redirect billions in fuel and technology spending across the global fleet. Workshops like this define which fuels, which technologies, and which compliance pathways are commercially viable — directly shaping what the ecosystem needs to build and when.",
+    description: "A mid-year industry preparation workshop convened by IMO and BIMCO ahead of the critical MEPC 85 session in December 2026 — where the Net-Zero Framework and GHG levy are expected to be decided. Covers preliminary fuel compliance scenarios, levy modelling, and technical preparation for flag states and operators navigating the upcoming regulatory cycle.",
+    importanceForUs: "MEPC 85 in December 2026 is expected to be the most consequential IMO session in a generation. This July workshop is the industry's last structured opportunity to align positions and prepare commercial strategies before the framework is adopted. The companies and flag states that engage here will be best positioned for the post-MEPC 85 compliance window.",
+    importanceForEcosystem: "Pre-MEPC workshops like this define which fuels, compliance pathways, and technology choices are commercially viable — and which ecosystem solutions are best positioned for the regulatory cycle ahead. Attendance gives real-time intelligence on the regulatory direction that will shape fleet technology investment for the rest of the decade.",
     whoAttends: { shipowners: 35, investors: 10, startups: 10, corporates: 20, regulators: 25 },
     contact: {
       name: "IMO Events Division",
