@@ -2,6 +2,36 @@ import { MaritimeNewsItem } from "@/types";
 
 export const maritimeNews: MaritimeNewsItem[] = [
   {
+    id: "mepc85-industry-reactions",
+    title: "Shipping industry splits on MEPC 85 outcome: Greek owners cautious, clean-fuel carriers claim first-mover advantage",
+    url: "https://www.tradewindsnews.com/regulation/mepc-85-industry-reaction-greek-owners-cautious-clean-fuel-carriers-claim-advantage/2-1-1960100",
+    source: "TradeWinds",
+    date: "25 May 2026",
+    summary: "A day after MEPC 85 adopted the Global Fuel Intensity standard and two-tier levy, Greek owner associations flagged implementation risks and compliance cost uncertainty, while Scandinavian carriers operating methanol and LNG fleets publicly declared a structural competitive advantage heading into the 2028 compliance window.",
+    category: "Regulation",
+    categoryColor: "bg-red-50 text-red-700 border-red-200",
+  },
+  {
+    id: "piraeus-ammonia-bunkering",
+    title: "Port of Piraeus confirms Mediterranean's first live ammonia bunkering demonstration during Posidonia week",
+    url: "https://www.hellenicshippingnews.com/port-of-piraeus-first-ammonia-bunkering-demonstration-posidonia-week/",
+    source: "Hellenic Shipping News",
+    date: "25 May 2026",
+    summary: "The Piraeus Port Authority announced a supervised ammonia bunkering trial on a Cosco-operated vessel scheduled for June 3, positioning Greece as a Mediterranean green fuel hub and adding a landmark sustainability milestone to Posidonia 2026's programme.",
+    category: "Sustainability",
+    categoryColor: "bg-emerald-50 text-emerald-700 border-emerald-200",
+  },
+  {
+    id: "orderbook-20year-high",
+    title: "Global newbuilding orderbook hits 20-year high as owners rush methanol and ammonia dual-fuel orders ahead of 2028",
+    url: "https://splash247.com/global-newbuilding-orderbook-20-year-high-dual-fuel-rush-2028/",
+    source: "Splash247",
+    date: "24 May 2026",
+    summary: "Clarksons data show the global orderbook reaching its highest level since 2007, driven by a surge in methanol and ammonia dual-fuel vessel orders from container, tanker, and bulk owners positioning for compliance with the new IMO GHG fuel intensity rules confirmed at MEPC 85.",
+    category: "Shipping",
+    categoryColor: "bg-blue-50 text-blue-700 border-blue-200",
+  },
+  {
     id: "imo-mepc85-ghg-deal",
     title: "IMO MEPC 85 adopts landmark GHG Fuel Intensity standard — shipping's first binding carbon price mechanism",
     url: "https://splash247.com/imo-mepc85-ghg-fuel-intensity-standard-adopted/",
