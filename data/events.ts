@@ -48,7 +48,7 @@ export const events: MaritimeEvent[] = [
     editions: [
       { year: 2024, date: "January 2024", venue: "Divani Caravel, Athens", status: "past" },
       { year: 2025, date: "January 2025", venue: "Divani Caravel, Athens", status: "past" },
-      { year: 2026, date: "January 20–21, 2026", venue: "Divani Caravel, Athens", status: "upcoming" },
+      { year: 2026, date: "January 20–21, 2026", venue: "Divani Caravel, Athens", status: "past" },
     ],
   },
   {
@@ -84,7 +84,7 @@ export const events: MaritimeEvent[] = [
     editions: [
       { year: 2024, date: "January 2024", venue: "Athens", status: "past" },
       { year: 2025, date: "January 2025", venue: "Athens", status: "past" },
-      { year: 2026, date: "January 27, 2026", venue: "Divani Caravel, Athens", status: "upcoming" },
+      { year: 2026, date: "January 27, 2026", venue: "Divani Caravel, Athens", status: "past" },
     ],
   },
   {
@@ -120,7 +120,7 @@ export const events: MaritimeEvent[] = [
     editions: [
       { year: 2024, date: "January 2024", venue: "Gothenburg", status: "past" },
       { year: 2025, date: "January 2025", venue: "Gothenburg", status: "past" },
-      { year: 2026, date: "January 28–30, 2026", venue: "Hotel Gothia Towers", status: "upcoming" },
+      { year: 2026, date: "January 28–30, 2026", venue: "Hotel Gothia Towers", status: "past" },
     ],
   },
   {
@@ -156,7 +156,7 @@ export const events: MaritimeEvent[] = [
     editions: [
       { year: 2024, date: "February 2024", venue: "DNV HQ, Oslo", status: "past" },
       { year: 2025, date: "February 2025", venue: "DNV HQ, Oslo", status: "past" },
-      { year: 2026, date: "February 5, 2026", venue: "DNV HQ, Oslo", status: "upcoming" },
+      { year: 2026, date: "February 5, 2026", venue: "DNV HQ, Oslo", status: "past" },
     ],
   },
   {
@@ -192,7 +192,7 @@ export const events: MaritimeEvent[] = [
     editions: [
       { year: 2024, date: "March 2024", venue: "World Port Center", status: "past" },
       { year: 2025, date: "March 2025", venue: "World Port Center", status: "past" },
-      { year: 2026, date: "March 10–11, 2026", venue: "World Port Center, Rotterdam", status: "upcoming" },
+      { year: 2026, date: "March 10–11, 2026", venue: "World Port Center, Rotterdam", status: "past" },
     ],
   },
   {
@@ -228,7 +228,7 @@ export const events: MaritimeEvent[] = [
     editions: [
       { year: 2024, date: "March 2024", venue: "London", status: "past" },
       { year: 2025, date: "March 2025", venue: "London", status: "past" },
-      { year: 2026, date: "March 24–25, 2026", venue: "The Shard, London", status: "upcoming" },
+      { year: 2026, date: "March 24–25, 2026", venue: "The Shard, London", status: "past" },
     ],
   },
   {
@@ -264,7 +264,7 @@ export const events: MaritimeEvent[] = [
     editions: [
       { year: 2024, date: "April 2024", venue: "Copenhagen", status: "past" },
       { year: 2025, date: "April 2025", venue: "Copenhagen", status: "past" },
-      { year: 2026, date: "April 7–8, 2026", venue: "Copenhagen", status: "upcoming" },
+      { year: 2026, date: "April 7–8, 2026", venue: "Copenhagen", status: "past" },
     ],
   },
   {
@@ -300,7 +300,7 @@ export const events: MaritimeEvent[] = [
     editions: [
       { year: 2024, date: "April 2024", venue: "Athens", status: "past" },
       { year: 2025, date: "April 2025", venue: "Athens", status: "past" },
-      { year: 2026, date: "April 21–22, 2026", venue: "Divani Caravel, Athens", status: "upcoming" },
+      { year: 2026, date: "April 21–22, 2026", venue: "Divani Caravel, Athens", status: "past" },
     ],
   },
   {
@@ -336,7 +336,7 @@ export const events: MaritimeEvent[] = [
     editions: [
       { year: 2024, date: "May 2024", venue: "Rotterdam", status: "past" },
       { year: 2025, date: "May 2025", venue: "Rotterdam", status: "past" },
-      { year: 2026, date: "May 12–13, 2026", venue: "Ahoy Rotterdam", status: "upcoming" },
+      { year: 2026, date: "May 12–13, 2026", venue: "Ahoy Rotterdam", status: "past" },
     ],
   },
   {
@@ -372,7 +372,7 @@ export const events: MaritimeEvent[] = [
     editions: [
       { year: 2024, date: "May 2024", venue: "The Baltic Exchange", status: "past" },
       { year: 2025, date: "May 2025", venue: "The Baltic Exchange", status: "past" },
-      { year: 2026, date: "May 19, 2026", venue: "The Baltic Exchange, London", status: "upcoming" },
+      { year: 2026, date: "May 19, 2026", venue: "The Baltic Exchange, London", status: "past" },
     ],
   },
   {
@@ -941,7 +941,7 @@ export const events: MaritimeEvent[] = [
     contact: { name: "Forum Secretariat", role: "Event Office", email: "info@worldmaritimeforum.org" },
     editions: [
       { year: 2025, date: "February 2025", venue: "Bella Sky Comwell, Copenhagen", status: "past" },
-      { year: 2026, date: "February 10–11, 2026", venue: "Bella Sky Comwell, Copenhagen", status: "upcoming" },
+      { year: 2026, date: "February 10–11, 2026", venue: "Bella Sky Comwell, Copenhagen", status: "past" },
     ],
   },
   {
@@ -970,7 +970,7 @@ export const events: MaritimeEvent[] = [
     contact: { name: "Summit Team", role: "Programme Office", email: "info@nordicsmartshipping.com" },
     editions: [
       { year: 2025, date: "March 2025", venue: "Copenhagen", status: "past" },
-      { year: 2026, date: "March 11–12, 2026", venue: "Copenhagen Marriott Hotel", status: "upcoming" },
+      { year: 2026, date: "March 11–12, 2026", venue: "Copenhagen Marriott Hotel", status: "past" },
     ],
   },
   {
@@ -999,7 +999,7 @@ export const events: MaritimeEvent[] = [
     contact: { name: "Riviera Maritime Media", role: "Events Team", email: "events@rivieramm.com" },
     editions: [
       { year: 2025, date: "March 2025", venue: "London", status: "past" },
-      { year: 2026, date: "March 18–19, 2026", venue: "etc.venues Liverpool Street", status: "upcoming" },
+      { year: 2026, date: "March 18–19, 2026", venue: "etc.venues Liverpool Street", status: "past" },
     ],
   },
   {
@@ -1028,7 +1028,7 @@ export const events: MaritimeEvent[] = [
     contact: { name: "WindEurope Events", role: "Conference Office", email: "events@windeurope.org" },
     editions: [
       { year: 2025, date: "April 2025", venue: "Bilbao, Spain", status: "past" },
-      { year: 2026, date: "April 28–30, 2026", venue: "Brussels", status: "upcoming" },
+      { year: 2026, date: "April 28–30, 2026", venue: "Brussels", status: "past" },
     ],
   },
   {
@@ -1057,7 +1057,7 @@ export const events: MaritimeEvent[] = [
     contact: { name: "Sea Europe Secretariat", role: "Policy Office", email: "info@seaeurope.eu" },
     editions: [
       { year: 2025, date: "May 2025", venue: "Brussels", status: "past" },
-      { year: 2026, date: "May 28–29, 2026", venue: "The Hotel Brussels", status: "upcoming" },
+      { year: 2026, date: "May 28–29, 2026", venue: "The Hotel Brussels", status: "past" },
     ],
   },
   {
