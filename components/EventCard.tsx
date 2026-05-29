@@ -30,22 +30,33 @@ function truncate(text: string, max = 100): string {
   return text.length <= max ? text : text.slice(0, max).trimEnd() + "…";
 }
 
-export default function EventCard({ event }: { event: MaritimeEvent }) {
+export default function EventCard({ event, isPast }: { event: MaritimeEvent; isPast?: boolean }) {
   return (
     <Link href={`/events/${event.slug}`} className="group block h-full">
-      <div className="bg-white border border-slate-200 rounded-2xl p-5 h-full hover:border-blue-300 hover:shadow-lg hover:shadow-blue-50 transition-all duration-200 flex flex-col gap-3">
+      <div className={`border rounded-2xl p-5 h-full transition-all duration-200 flex flex-col gap-3 ${
+        isPast
+          ? "bg-slate-50 border-slate-200 opacity-70 hover:opacity-90 hover:border-slate-300 hover:shadow-sm"
+          : "bg-white border-slate-200 hover:border-blue-300 hover:shadow-lg hover:shadow-blue-50"
+      }`}>
 
-        {/* Top row: country flag */}
+        {/* Top row: country flag + past badge */}
         <div className="flex items-center justify-between gap-2">
           <div className="flex items-center gap-1.5 text-sm text-slate-500">
             <span>{FLAGS[event.countryCode] ?? "🌍"}</span>
             <span className="text-xs">{event.country}</span>
           </div>
+          {isPast && (
+            <span className="text-xs font-medium bg-slate-200 text-slate-500 rounded-full px-2 py-0.5 flex-shrink-0">
+              Past
+            </span>
+          )}
         </div>
 
         {/* Event name + location + date */}
         <div>
-          <h3 className="font-semibold text-slate-900 leading-snug group-hover:text-blue-600 transition-colors">
+          <h3 className={`font-semibold leading-snug transition-colors ${
+            isPast ? "text-slate-600" : "text-slate-900 group-hover:text-blue-600"
+          }`}>
             {event.name}
           </h3>
           <div className="flex flex-col gap-1 mt-1.5">
@@ -71,7 +82,9 @@ export default function EventCard({ event }: { event: MaritimeEvent }) {
             <span
               key={c}
               className={`text-xs font-medium border rounded-full px-2.5 py-0.5 ${
-                CATEGORY_STYLES[c] ?? "bg-slate-50 text-slate-600 border-slate-200"
+                isPast
+                  ? "bg-slate-100 text-slate-500 border-slate-200"
+                  : CATEGORY_STYLES[c] ?? "bg-slate-50 text-slate-600 border-slate-200"
               }`}
             >
               {c}
@@ -88,7 +101,7 @@ export default function EventCard({ event }: { event: MaritimeEvent }) {
         <div className="mt-auto pt-3 border-t border-slate-100">
           <div className="flex items-center gap-1.5 text-xs text-slate-500">
             <Users className="w-3 h-3" />
-            <span className="font-medium text-slate-700">
+            <span className={`font-medium ${isPast ? "text-slate-500" : "text-slate-700"}`}>
               {formatAttendance(event.attendance.min, event.attendance.max)}
             </span>
           </div>
@@ -97,3 +110,4 @@ export default function EventCard({ event }: { event: MaritimeEvent }) {
     </Link>
   );
 }
+

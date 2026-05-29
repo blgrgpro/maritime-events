@@ -8,8 +8,14 @@ import { countries, categories } from "@/data/events";
 
 interface Props { events: MaritimeEvent[] }
 
+const TODAY = "2026-05-29";
+
 function getMidAttendance(e: MaritimeEvent) {
   return (e.attendance.min + e.attendance.max) / 2;
+}
+
+function isEventPast(e: MaritimeEvent): boolean {
+  return e.dateSort < TODAY;
 }
 
 function matchesSize(e: MaritimeEvent, size: string): boolean {
@@ -175,16 +181,7 @@ export default function EventGrid({ events }: Props) {
 
       {/* Results */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <p className="text-sm text-slate-500 mb-6">
-          <span className="font-semibold text-slate-900">{filtered.length}</span>{" "}
-          {filtered.length === 1 ? "event" : "events"} found
-        </p>
-
-        {filtered.length > 0 ? (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-            {filtered.map((e) => <EventCard key={e.id} event={e} />)}
-          </div>
-        ) : (
+        {filtered.length === 0 ? (
           <div className="flex flex-col items-center justify-center py-20 text-center">
             <div className="w-14 h-14 bg-slate-100 rounded-2xl flex items-center justify-center mb-4">
               <Search className="w-6 h-6 text-slate-400" />
@@ -195,7 +192,47 @@ export default function EventGrid({ events }: Props) {
               Clear all filters
             </button>
           </div>
-        )}
+        ) : (() => {
+          const upcoming = filtered.filter((e) => !isEventPast(e));
+          const past     = filtered.filter((e) =>  isEventPast(e));
+          return (
+            <div className="space-y-12">
+              {upcoming.length > 0 && (
+                <div>
+                  <div className="flex items-center gap-3 mb-6">
+                    <span className="w-2 h-2 rounded-full bg-blue-500 flex-shrink-0" />
+                    <h2 className="text-base font-bold text-slate-900 tracking-tight uppercase text-xs">
+                      Upcoming Events
+                    </h2>
+                    <span className="text-xs font-semibold text-blue-600 bg-blue-50 border border-blue-200 rounded-full px-2.5 py-0.5">
+                      {upcoming.length}
+                    </span>
+                  </div>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+                    {upcoming.map((e) => <EventCard key={e.id} event={e} isPast={false} />)}
+                  </div>
+                </div>
+              )}
+
+              {past.length > 0 && (
+                <div>
+                  <div className="flex items-center gap-3 mb-6">
+                    <span className="w-2 h-2 rounded-full bg-slate-400 flex-shrink-0" />
+                    <h2 className="text-xs font-bold text-slate-500 tracking-tight uppercase">
+                      Past Events
+                    </h2>
+                    <span className="text-xs font-semibold text-slate-500 bg-slate-100 border border-slate-200 rounded-full px-2.5 py-0.5">
+                      {past.length}
+                    </span>
+                  </div>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+                    {past.map((e) => <EventCard key={e.id} event={e} isPast={true} />)}
+                  </div>
+                </div>
+              )}
+            </div>
+          );
+        })()}
       </div>
     </div>
   );

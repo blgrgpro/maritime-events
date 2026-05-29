@@ -41,6 +41,8 @@ export default function MaritimeNews() {
             </a>
           ))}
         </div>
+
+        <p className="text-xs text-slate-400 mt-8 text-right">Last updated 29 May 2026</p>
       </div>
     </section>
   );
