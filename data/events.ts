@@ -408,7 +408,7 @@ export const events: MaritimeEvent[] = [
     editions: [
       { year: 2022, date: "June 6–10, 2022", venue: "Athens Metropolitan Expo", status: "past" },
       { year: 2024, date: "June 3–7, 2024", venue: "Athens Metropolitan Expo", status: "past" },
-      { year: 2026, date: "June 1–5, 2026", venue: "Athens Metropolitan Expo", status: "upcoming" },
+      { year: 2026, date: "June 1–5, 2026", venue: "Athens Metropolitan Expo", status: "past" },
     ],
   },
   {
@@ -444,7 +444,7 @@ export const events: MaritimeEvent[] = [
     editions: [
       { year: 2024, date: "June 2024", venue: "Hotel Grande Bretagne, Athens", status: "past" },
       { year: 2025, date: "June 2025", venue: "Hotel Grande Bretagne, Athens", status: "past" },
-      { year: 2026, date: "June 2, 2026", venue: "Hotel Grande Bretagne, Athens", status: "upcoming" },
+      { year: 2026, date: "June 2, 2026", venue: "Hotel Grande Bretagne, Athens", status: "past" },
     ],
   },
   {
@@ -480,7 +480,7 @@ export const events: MaritimeEvent[] = [
     editions: [
       { year: 2024, date: "May 21–23, 2024", venue: "Rotterdam Ahoy", status: "past" },
       { year: 2025, date: "June 3–5, 2025", venue: "Rotterdam Ahoy", status: "past" },
-      { year: 2026, date: "June 2–4, 2026", venue: "Rotterdam Ahoy", status: "upcoming" },
+      { year: 2026, date: "June 2–4, 2026", venue: "Rotterdam Ahoy", status: "past" },
     ],
   },
   {
