@@ -454,8 +454,8 @@ export const events: MaritimeEvent[] = [
     city: "Rotterdam",
     country: "Netherlands",
     countryCode: "NL",
-    date: "June 2–4, 2026",
-    dateSort: "2026-06-02",
+    date: "June 16–18, 2026",
+    dateSort: "2026-06-16",
     categories: ["Maritime Logistics & Supply Chain", "Ports & Terminals"],
     primaryCategory: "Maritime Logistics & Supply Chain",
     attendance: { min: 8000, max: 11000 },
@@ -480,7 +480,7 @@ export const events: MaritimeEvent[] = [
     editions: [
       { year: 2024, date: "May 21–23, 2024", venue: "Rotterdam Ahoy", status: "past" },
       { year: 2025, date: "June 3–5, 2025", venue: "Rotterdam Ahoy", status: "past" },
-      { year: 2026, date: "June 2–4, 2026", venue: "Rotterdam Ahoy", status: "past" },
+      { year: 2026, date: "June 16–18, 2026", venue: "Rotterdam Ahoy", status: "upcoming" },
     ],
   },
   {

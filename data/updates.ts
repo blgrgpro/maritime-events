@@ -9,12 +9,6 @@ export const industryUpdates: IndustryUpdate[] = [
     category: "sustainability",
     newsItems: [
       {
-        title: "Maersk orders eight additional methanol-ready vessels at Posidonia 2026 — fleet orderbook reaches 33 ships",
-        url: "https://splash247.com/posidonia-2026-day-one-maersk-msc-orders/",
-        source: "Splash247",
-        date: "1 Jun 2026",
-      },
-      {
         title: "Maersk expands methanol fleet with new vessel delivery — orderbook now at 25 ships",
         url: "https://www.hellenicshippingnews.com/maersk-expands-methanol-fleet-with-new-delivery/",
         source: "Hellenic Shipping News",
@@ -52,12 +46,6 @@ export const industryUpdates: IndustryUpdate[] = [
         url: "https://www.euronews.com/business/2026/05/04/shipping-giant-msc-opens-new-trade-route-to-bypass-hormuz-disruption",
         source: "Euronews",
         date: "4 May 2026",
-      },
-      {
-        title: "MSC adds 16 ammonia-ready vessels at Posidonia — largest single green orderbook addition in container shipping history",
-        url: "https://splash247.com/posidonia-2026-day-one-maersk-msc-orders/",
-        source: "Splash247",
-        date: "1 Jun 2026",
       },
       {
         title: "MSC places order for 10 ammonia-ready ultra-large containerships at Hyundai Heavy Industries",
