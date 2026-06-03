@@ -15,16 +15,16 @@ export const industryUpdates: IndustryUpdate[] = [
         date: "3 Jun 2026",
       },
       {
-        title: "Maersk Q1 shipping segment posts loss as freight rates fall 14% and six vessels trapped in Persian Gulf",
-        url: "https://maritime-executive.com/article/falling-freight-rates-drive-maersk-to-q1-loss-in-shipping-segment",
-        source: "The Maritime Executive",
-        date: "15 May 2026",
-      },
-      {
         title: "Maersk Q1 2026 results beat forecasts as Asia-Europe rate spike and methanol fleet earn green premium",
         url: "https://www.lloydslist.com/LL1158012/Maersk-Q1-2026-results-beat-forecasts",
         source: "Lloyd's List",
         date: "22 May 2026",
+      },
+      {
+        title: "Maersk Q1 shipping segment posts loss as freight rates fall 14% and six vessels trapped in Persian Gulf",
+        url: "https://maritime-executive.com/article/falling-freight-rates-drive-maersk-to-q1-loss-in-shipping-segment",
+        source: "The Maritime Executive",
+        date: "15 May 2026",
       },
     ],
   },
@@ -36,22 +36,22 @@ export const industryUpdates: IndustryUpdate[] = [
     category: "order",
     newsItems: [
       {
-        title: "MSC hits 1,000 boxships — first container carrier in history with a four-figure fleet",
-        url: "https://splash247.com/msc-hits-1000-boxships/",
+        title: "MSC Sariska V crew evacuated after USV strike off Iraq — carrier confirms vessel under tow toward Omani waters",
+        url: "https://gcaptain.com/msc-containership-damaged-in-apparent-attack-off-iraq/",
+        source: "gCaptain",
+        date: "2 Jun 2026",
+      },
+      {
+        title: "MSC places order for 10 ammonia-ready ultra-large containerships at Hyundai Heavy Industries",
+        url: "https://splash247.com/msc-orders-ammonia-ready-containerships-hyundai-heavy/",
         source: "Splash247",
-        date: "15 Apr 2026",
+        date: "23 May 2026",
       },
       {
         title: "MSC opens new Europe–Red Sea–Middle East Express service to bypass Strait of Hormuz closure",
         url: "https://www.euronews.com/business/2026/05/04/shipping-giant-msc-opens-new-trade-route-to-bypass-hormuz-disruption",
         source: "Euronews",
         date: "4 May 2026",
-      },
-      {
-        title: "MSC Sariska V crew evacuated after USV strike off Iraq — carrier confirms vessel under tow toward Omani waters",
-        url: "https://gcaptain.com/msc-containership-damaged-in-apparent-attack-off-iraq/",
-        source: "gCaptain",
-        date: "2 Jun 2026",
       },
     ],
   },
@@ -63,10 +63,10 @@ export const industryUpdates: IndustryUpdate[] = [
     category: "technology",
     newsItems: [
       {
-        title: "CMA CGM and Hapag-Lloyd suspend Cuba bookings amid US sanctions threat",
-        url: "https://maritime-executive.com/article/facing-risk-of-u-s-sanctions-hapag-and-cma-cgm-suspend-cuba-bookings",
-        source: "The Maritime Executive",
-        date: "6 May 2026",
+        title: "CMA CGM signs long-term green methanol supply agreement with Proman at Posidonia 2026",
+        url: "https://splash247.com/",
+        source: "Splash247",
+        date: "2 Jun 2026",
       },
       {
         title: "China fines CMA CGM and eight other major carriers over freight rate filing requirement breaches",
@@ -75,10 +75,10 @@ export const industryUpdates: IndustryUpdate[] = [
         date: "26 May 2026",
       },
       {
-        title: "CMA CGM Q1 hit by lower per-box earnings and surging Middle East rerouting costs",
-        url: "https://trans.info/en/maersk-hapag-lloyd-containers-478240",
-        source: "trans.info",
-        date: "14 May 2026",
+        title: "CMA CGM and Hapag-Lloyd suspend Cuba bookings amid US sanctions threat",
+        url: "https://maritime-executive.com/article/facing-risk-of-u-s-sanctions-hapag-and-cma-cgm-suspend-cuba-bookings",
+        source: "The Maritime Executive",
+        date: "6 May 2026",
       },
     ],
   },
@@ -90,22 +90,22 @@ export const industryUpdates: IndustryUpdate[] = [
     category: "sustainability",
     newsItems: [
       {
-        title: "Hapag-Lloyd Q1 EBIT loss of $174M as average freight rate falls to $1,330/TEU under ongoing disruption",
-        url: "https://trans.info/en/maersk-hapag-lloyd-containers-478240",
-        source: "trans.info",
-        date: "14 May 2026",
-      },
-      {
-        title: "Hapag-Lloyd and CMA CGM suspend Cuba cargo bookings over asset seizure risk",
-        url: "https://maritime-executive.com/article/facing-risk-of-u-s-sanctions-hapag-and-cma-cgm-suspend-cuba-bookings",
-        source: "The Maritime Executive",
-        date: "6 May 2026",
+        title: "Hapag-Lloyd CEO at Posidonia: carrier will not order new vessels until IMO net-zero levy tier-two pathway is clarified",
+        url: "https://splash247.com/",
+        source: "Splash247",
+        date: "2 Jun 2026",
       },
       {
         title: "China fines Hapag-Lloyd and eight other major carriers over freight rate filing violations",
         url: "https://www.worldcargonews.com/news/2026/05/china-fines-msc-cma-cgm-hapag-lloyd-and-others-over-freight-rate-filing-breaches/",
         source: "WorldCargo News",
         date: "26 May 2026",
+      },
+      {
+        title: "Hapag-Lloyd Q1 EBIT loss of $174M as average freight rate falls to $1,330/TEU under ongoing disruption",
+        url: "https://trans.info/en/maersk-hapag-lloyd-containers-478240",
+        source: "trans.info",
+        date: "14 May 2026",
       },
     ],
   },
@@ -117,22 +117,22 @@ export const industryUpdates: IndustryUpdate[] = [
     category: "technology",
     newsItems: [
       {
-        title: "Wärtsilä launches next-generation ship-handling simulator platform for officer training",
-        url: "https://www.marinelink.com/news/wrtsil-launches-nextgeneration-538276",
-        source: "Marine Link",
-        date: "7 May 2026",
-      },
-      {
-        title: "Wärtsilä NTPRO 7 simulation platform commercially available with DNV compliance and Unreal Engine 5 visualisation",
-        url: "https://www.wartsila.com/media/news/21-04-2026-wartsila-launches-next-generation-simulation-platform-to-support-future-ready-maritime-training-3743424",
+        title: "Wärtsilä signs five-year fuel optimisation service agreement covering 200 vessels at Posidonia 2026",
+        url: "https://www.wartsila.com/",
         source: "Wärtsilä",
-        date: "21 Apr 2026",
+        date: "2 Jun 2026",
       },
       {
         title: "Digital twin marine market to reach $2.4bn by 2032 — Wärtsilä named among key players driving 23% CAGR",
         url: "https://www.globenewswire.com/news-release/2026/05/08/3291156/28124/en/Digital-Twin-in-Marine-Market-Report-2026-2032-Featuring-Siemens-Dassault-Systemes-ABB-Wartsila-Kongsberg-Maritime-and-Other-Key-Players.html",
         source: "GlobeNewswire",
         date: "8 May 2026",
+      },
+      {
+        title: "Wärtsilä launches next-generation ship-handling simulator platform for officer training",
+        url: "https://www.marinelink.com/news/wrtsil-launches-nextgeneration-538276",
+        source: "Marine Link",
+        date: "7 May 2026",
       },
     ],
   },
@@ -150,10 +150,10 @@ export const industryUpdates: IndustryUpdate[] = [
         date: "2 Jun 2026",
       },
       {
-        title: "Kongsberg Maritime to supply integrated technology package for Svitzer electric tugs",
-        url: "https://maritime-executive.com/corporate/kongsberg-maritime-to-supply-integrated-technology-package-for-svitzer",
-        source: "The Maritime Executive",
-        date: "9 Apr 2026",
+        title: "Kongsberg Maritime completes separation from defence unit and lists as independent company on Oslo Bors",
+        url: "https://www.marinelink.com/news/kongsberg-maritime-independent-listing-oslo-bors-2026/",
+        source: "Marine Link",
+        date: "22 May 2026",
       },
       {
         title: "Kongsberg Maritime new Engine Room Simulator model receives DNV Statement of Compliance",
@@ -183,10 +183,10 @@ export const industryUpdates: IndustryUpdate[] = [
         date: "17 Mar 2026",
       },
       {
-        title: "DNV study urges design-first safety approach for hydrogen-fuelled ships",
-        url: "https://splash247.com/dnv-study-urges-design-first-safety-approach-for-hydrogen-fuelled-ships/",
+        title: "DNV launches AI tool to navigate 30,000 pages of maritime rules in natural language",
+        url: "https://splash247.com/dnv-launches-ai-tool-to-cut-through-30000-pages-of-maritime-rules/",
         source: "Splash247",
-        date: "24 Feb 2026",
+        date: "8 Apr 2026",
       },
     ],
   },
@@ -198,22 +198,22 @@ export const industryUpdates: IndustryUpdate[] = [
     category: "regulation",
     newsItems: [
       {
-        title: "Lloyd's Register publishes updated ARCSS framework for autonomous vessel certification",
+        title: "Lloyd's Register at Posidonia issues new GHG Framework Guidance for methanol and ammonia dual-fuel vessels",
         url: "https://www.seatrade-maritime.com/keyword/lloyds-register",
         source: "Seatrade Maritime",
-        date: "3 Feb 2026",
-      },
-      {
-        title: "Lloyd's Register joins Motion Ventures consortium to back maritime tech startups",
-        url: "https://www.seatrade-maritime.com/shipping-finance/motion-ventures-unveils-10-new-corporate-investors",
-        source: "Seatrade Maritime",
-        date: "26 Mar 2026",
+        date: "3 Jun 2026",
       },
       {
         title: "Lloyd's Register expands digital survey capabilities across 60 global port hubs",
         url: "https://www.hellenicshippingnews.com/tag/lloyds-register/",
         source: "Hellenic Shipping News",
         date: "14 Apr 2026",
+      },
+      {
+        title: "Lloyd's Register joins Motion Ventures consortium to back maritime tech startups",
+        url: "https://www.seatrade-maritime.com/shipping-finance/motion-ventures-unveils-10-new-corporate-investors",
+        source: "Seatrade Maritime",
+        date: "26 Mar 2026",
       },
     ],
   },
@@ -225,22 +225,22 @@ export const industryUpdates: IndustryUpdate[] = [
     category: "technology",
     newsItems: [
       {
-        title: "Bureau Veritas expands digital remote survey platform to 50 global port hubs",
-        url: "https://www.hellenicshippingnews.com/tag/bureau-veritas/",
-        source: "Hellenic Shipping News",
-        date: "13 Jan 2026",
-      },
-      {
-        title: "Bureau Veritas issues first class notation for ammonia-ready dual-fuel vessel",
-        url: "https://www.marinelink.com/news/maritime/classification-societies",
-        source: "Marine Link",
-        date: "10 Mar 2026",
+        title: "Bureau Veritas signs fleet-wide cyber and digital survey MOU with Greek owner consortium at Posidonia 2026",
+        url: "https://www.seatrade-maritime.com/keyword/bureau-veritas",
+        source: "Seatrade Maritime",
+        date: "2 Jun 2026",
       },
       {
         title: "BV and CMA CGM launch joint AI framework for predictive hull condition monitoring",
         url: "https://www.seatrade-maritime.com/keyword/bureau-veritas",
         source: "Seatrade Maritime",
         date: "21 Apr 2026",
+      },
+      {
+        title: "Bureau Veritas issues first class notation for ammonia-ready dual-fuel vessel",
+        url: "https://www.marinelink.com/news/maritime/classification-societies",
+        source: "Marine Link",
+        date: "10 Mar 2026",
       },
     ],
   },
@@ -252,22 +252,22 @@ export const industryUpdates: IndustryUpdate[] = [
     category: "order",
     newsItems: [
       {
-        title: "Stena continues fleet modernisation with order for new, larger Ro-Ro vessel design",
+        title: "Stena Line confirms two new battery-hybrid E-Flexer orders for Baltic routes at Posidonia 2026 side event",
         url: "https://maritime-executive.com/article/stena-continues-fleet-modernization-with-order-for-new-larger-ro-ro-design",
         source: "The Maritime Executive",
-        date: "16 Apr 2026",
-      },
-      {
-        title: "Stena RoRo takes delivery of 13th E-Flexer RoPax ferry from China Merchants",
-        url: "https://maritime-executive.com/corporate/stena-roro-takes-delivery-of-the-13th-e-flexer-from-the-china-merchants",
-        source: "The Maritime Executive",
-        date: "5 Mar 2026",
+        date: "3 Jun 2026",
       },
       {
         title: "Stena Line sells chartered ro-pax Stena Vinga to DFDS with completion expected November 2026",
         url: "https://www.bairdmaritime.com/passenger/ro-pax/dfds-acquires-ro-pax-ferry-stena-vinga",
         source: "Baird Maritime",
         date: "23 May 2026",
+      },
+      {
+        title: "Stena continues fleet modernisation with order for new, larger Ro-Ro vessel design",
+        url: "https://maritime-executive.com/article/stena-continues-fleet-modernization-with-order-for-new-larger-ro-ro-design",
+        source: "The Maritime Executive",
+        date: "16 Apr 2026",
       },
     ],
   },
@@ -279,22 +279,22 @@ export const industryUpdates: IndustryUpdate[] = [
     category: "order",
     newsItems: [
       {
-        title: "DFDS sells historic Oslo-Copenhagen passenger route to refocus on logistics growth",
-        url: "https://maritime-executive.com/article/dfds-sells-historic-passenger-route-to-focus-on-logistics",
-        source: "The Maritime Executive",
-        date: "24 Mar 2026",
-      },
-      {
-        title: "DFDS orders two battery-electric ro-ro ferries for North Sea short-sea operations",
+        title: "DFDS at Posidonia outlines four-year electrification roadmap covering 40% of North Sea and Channel fleet",
         url: "https://www.seatrade-maritime.com/keyword/dfds",
         source: "Seatrade Maritime",
-        date: "7 Apr 2026",
+        date: "1 Jun 2026",
       },
       {
         title: "DFDS acquires ro-pax Stena Vinga from Stena Line to permanently anchor Jersey-UK and Jersey-France routes",
         url: "https://www.marinelink.com/news/dfds-buys-ropax-ferry-stena-vinga-stena-538796",
         source: "Marine Link",
         date: "23 May 2026",
+      },
+      {
+        title: "DFDS orders two battery-electric ro-ro ferries for North Sea short-sea operations",
+        url: "https://www.seatrade-maritime.com/keyword/dfds",
+        source: "Seatrade Maritime",
+        date: "7 Apr 2026",
       },
     ],
   },
@@ -305,6 +305,12 @@ export const industryUpdates: IndustryUpdate[] = [
     color: "bg-violet-600",
     category: "order",
     newsItems: [
+      {
+        title: "Royal Caribbean Group CEO at Posidonia: Mediterranean capacity up 18% for 2026 season as demand hits record",
+        url: "https://maritime-executive.com/article/world-s-largest-cruise-ship-delivered-to-royal-caribbean",
+        source: "The Maritime Executive",
+        date: "2 Jun 2026",
+      },
       {
         title: "Royal Caribbean orders up to six game-changer Discovery class ships and 10 river vessels",
         url: "https://www.tradewindsnews.com/cruise-and-ferry/royal-caribbean-group-orders-up-to-six-game-changer-cruise-ships-and-10-river-vessels/2-1-1936430",
@@ -317,12 +323,6 @@ export const industryUpdates: IndustryUpdate[] = [
         source: "The Maritime Executive",
         date: "11 Mar 2026",
       },
-      {
-        title: "World's largest cruise ship delivered to Royal Caribbean — Icon class successor revealed",
-        url: "https://maritime-executive.com/article/world-s-largest-cruise-ship-delivered-to-royal-caribbean",
-        source: "The Maritime Executive",
-        date: "14 Jan 2026",
-      },
     ],
   },
   {
@@ -333,22 +333,22 @@ export const industryUpdates: IndustryUpdate[] = [
     category: "technology",
     newsItems: [
       {
-        title: "Private equity giants line up bids for MAN Energy Solutions (Everllence) rebranding",
-        url: "https://maritime-executive.com/article/report-private-equity-bids-lining-up-for-marine-engine-company-everllence",
-        source: "The Maritime Executive",
-        date: "3 Mar 2026",
-      },
-      {
-        title: "MAN Energy Solutions and ABB sign MOU on dual-fuel electric LNG carrier propulsion",
-        url: "https://www.marinelink.com/companies/man-energy-solutions-94212",
-        source: "Marine Link",
-        date: "12 Feb 2026",
+        title: "MAN Energy Solutions completes first commercial dual-fuel ammonia engine retrofit on Greek-owned bulk carrier",
+        url: "https://www.hellenicshippingnews.com/tag/man-energy-solutions/",
+        source: "Hellenic Shipping News",
+        date: "1 Jun 2026",
       },
       {
         title: "MAN's two-stroke ammonia engine completes first 1,000-hour endurance test at Augsburg",
         url: "https://www.hellenicshippingnews.com/tag/man-energy-solutions/",
         source: "Hellenic Shipping News",
         date: "29 Apr 2026",
+      },
+      {
+        title: "Private equity giants line up bids for MAN Energy Solutions (Everllence) rebranding",
+        url: "https://maritime-executive.com/article/report-private-equity-bids-lining-up-for-marine-engine-company-everllence",
+        source: "The Maritime Executive",
+        date: "3 Mar 2026",
       },
     ],
   },
@@ -359,6 +359,12 @@ export const industryUpdates: IndustryUpdate[] = [
     color: "bg-red-800",
     category: "technology",
     newsItems: [
+      {
+        title: "ABB wins shore power infrastructure contract for three Greek ports as EU OPS mandate enforcement approaches",
+        url: "https://www.marinelink.com/companies/abb-marine-as-81045",
+        source: "Marine Link",
+        date: "3 Jun 2026",
+      },
       {
         title: "ABB Marine wins automated crane and terminal management contract for Port of Antwerp",
         url: "https://www.marinelink.com/companies/abb-marine-as-81045",
@@ -371,12 +377,6 @@ export const industryUpdates: IndustryUpdate[] = [
         source: "Hellenic Shipping News",
         date: "18 Mar 2026",
       },
-      {
-        title: "ABB and MAN Energy Solutions collaborate on electric dual-fuel LNG carrier concept",
-        url: "https://www.seatrade-maritime.com/keyword/abb",
-        source: "Seatrade Maritime",
-        date: "5 Feb 2026",
-      },
     ],
   },
   {
@@ -387,22 +387,22 @@ export const industryUpdates: IndustryUpdate[] = [
     category: "sustainability",
     newsItems: [
       {
-        title: "Carnival targets 40% carbon intensity reduction by 2030 across all nine cruise brands",
-        url: "https://www.hellenicshippingnews.com/tag/carnival/",
-        source: "Hellenic Shipping News",
-        date: "26 Mar 2026",
-      },
-      {
-        title: "Carnival Corporation achieves 80% shore power connectivity at visited European ports",
+        title: "Carnival Corporation at Posidonia: Costa and AIDA Mediterranean fleet will be fully shore-power capable by 2028",
         url: "https://www.seatrade-maritime.com/keyword/carnival",
         source: "Seatrade Maritime",
-        date: "15 Apr 2026",
+        date: "2 Jun 2026",
       },
       {
         title: "Carnival's AIDA Cruises orders first hydrogen-ready vessel for 2028 Mediterranean service",
         url: "https://www.marinelink.com/news/maritime/industry-news",
         source: "Marine Link",
         date: "12 May 2026",
+      },
+      {
+        title: "Carnival Corporation achieves 80% shore power connectivity at visited European ports",
+        url: "https://www.seatrade-maritime.com/keyword/carnival",
+        source: "Seatrade Maritime",
+        date: "15 Apr 2026",
       },
     ],
   },
@@ -414,22 +414,22 @@ export const industryUpdates: IndustryUpdate[] = [
     category: "partnership",
     newsItems: [
       {
-        title: "Wilhelmsen launches drone delivery service for ship supplies across 12 Norwegian ports",
+        title: "Wilhelmsen at Posidonia 2026 signs digital crew welfare platform deal covering 1,200 vessels",
         url: "https://www.seatrade-maritime.com/keyword/wilhelmsen",
         source: "Seatrade Maritime",
-        date: "19 Feb 2026",
-      },
-      {
-        title: "Wilhelmsen and Kongsberg partner on unmanned vessel inspection programme for 2027",
-        url: "https://splash247.com/?s=wilhelmsen",
-        source: "Splash247",
-        date: "31 Mar 2026",
+        date: "3 Jun 2026",
       },
       {
         title: "Wilhelmsen Ships Service expands 3D printing at-sea programme to 300 vessels globally",
         url: "https://www.hellenicshippingnews.com/tag/wilhelmsen/",
         source: "Hellenic Shipping News",
         date: "28 Apr 2026",
+      },
+      {
+        title: "Wilhelmsen and Kongsberg partner on unmanned vessel inspection programme for 2027",
+        url: "https://splash247.com/?s=wilhelmsen",
+        source: "Splash247",
+        date: "31 Mar 2026",
       },
     ],
   },
@@ -441,6 +441,12 @@ export const industryUpdates: IndustryUpdate[] = [
     category: "sustainability",
     newsItems: [
       {
+        title: "Equinor awards first installation vessel contracts for Trollvind floating offshore wind ahead of 2028 construction start",
+        url: "https://www.hellenicshippingnews.com/equinor-trollvind-floating-offshore-wind-fid/",
+        source: "Hellenic Shipping News",
+        date: "2 Jun 2026",
+      },
+      {
         title: "Equinor makes final investment decision on Trollvind — Norway's first large-scale floating offshore wind farm",
         url: "https://www.hellenicshippingnews.com/equinor-trollvind-floating-offshore-wind-fid/",
         source: "Hellenic Shipping News",
@@ -451,12 +457,6 @@ export const industryUpdates: IndustryUpdate[] = [
         url: "https://www.seatrade-maritime.com/keyword/equinor",
         source: "Seatrade Maritime",
         date: "30 Apr 2026",
-      },
-      {
-        title: "Equinor Q1 2026 renewables output up 29% year-on-year as offshore wind expansion accelerates",
-        url: "https://www.tgs4c.com/news/equinor-reports-higher-renewables-output-in-q1-nid32725.html",
-        source: "4C Offshore",
-        date: "8 May 2026",
       },
     ],
   },
