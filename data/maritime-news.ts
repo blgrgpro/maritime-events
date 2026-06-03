@@ -2,6 +2,26 @@ import { MaritimeNewsItem } from "@/types";
 
 export const maritimeNews: MaritimeNewsItem[] = [
   {
+    id: "helmepa-posidonia-2026",
+    title: "HELMEPA 'Ocean Intelligence in MetaShipping' conference opens at Posidonia — four interconnected intelligences for the net-zero era",
+    url: "https://container-news.com/posidonia-2026-conference-programme-kicks-off-early-with-geopolitics-dominant-in-industry-agenda/",
+    source: "Container News",
+    date: "3 Jun 2026",
+    summary: "HELMEPA's flagship International Conference at Posidonia opened on June 3 under the theme 'Ocean Intelligence in MetaShipping', framing maritime's transformation around four interconnected intelligences: ecological (biodiversity and ocean stewardship), human (crew skilling and wellbeing), technological (AI, automation, digital twin), and financial (investment frameworks for the energy transition). The conference drew senior representation from Greek shipowners, classification societies, and EU maritime officials, reflecting the growing integration of sustainability governance into fleet decision-making.",
+    category: "Technology",
+    categoryColor: "bg-violet-50 text-violet-700 border-violet-200",
+  },
+  {
+    id: "capital-link-posidonia-forum-2026",
+    title: "Capital Link Posidonia Shipping Forum: investors warn IMO GHG levy timetable too slow to drive meaningful fleet renewal before 2030",
+    url: "https://www.capitallink.com/shipping/posidonia",
+    source: "Capital Link",
+    date: "3 Jun 2026",
+    summary: "The Capital Link Posidonia Shipping Forum at the Stavros Niarchos Foundation Cultural Centre convened institutional investors and shipping executives to assess the financial implications of the MEPC 85 GHG levy adopted in May. Investor panellists warned that the 2028 enforcement date leaves insufficient lead time for shipowners to build bankable business cases for alternative-fuel newbuildings at current yards capacity. Several Greek owners confirmed they are deferring fuel-type decisions pending further IMO guidance on the levy's tier-two escalation mechanism.",
+    category: "Investment",
+    categoryColor: "bg-amber-50 text-amber-700 border-amber-200",
+  },
+  {
     id: "posidonia-2026-opens",
     title: "Posidonia 2026 opens in Athens with record 2,227 exhibitors as Hormuz crisis dominates agenda",
     url: "https://www.seatrade-maritime.com/event-news/posidonia-2026-takes-centre-stage-as-shipping-recalibrates-amid-global-freedom-of-navigation-challenges",

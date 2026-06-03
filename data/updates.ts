@@ -9,10 +9,10 @@ export const industryUpdates: IndustryUpdate[] = [
     category: "sustainability",
     newsItems: [
       {
-        title: "Maersk expands methanol fleet with new vessel delivery — orderbook now at 25 ships",
-        url: "https://www.hellenicshippingnews.com/maersk-expands-methanol-fleet-with-new-delivery/",
-        source: "Hellenic Shipping News",
-        date: "20 May 2026",
+        title: "Maersk CEO at Posidonia 2026: IMO GHG levy is a 'turning point' but fuel infrastructure must accelerate in parallel",
+        url: "https://maritime-executive.com/article/falling-freight-rates-drive-maersk-to-q1-loss-in-shipping-segment",
+        source: "The Maritime Executive",
+        date: "3 Jun 2026",
       },
       {
         title: "Maersk Q1 shipping segment posts loss as freight rates fall 14% and six vessels trapped in Persian Gulf",
@@ -48,10 +48,10 @@ export const industryUpdates: IndustryUpdate[] = [
         date: "4 May 2026",
       },
       {
-        title: "MSC places order for 10 ammonia-ready ultra-large containerships at Hyundai Heavy Industries",
-        url: "https://splash247.com/msc-orders-ammonia-ready-containerships-hyundai-heavy/",
-        source: "Splash247",
-        date: "23 May 2026",
+        title: "MSC Sariska V crew evacuated after USV strike off Iraq — carrier confirms vessel under tow toward Omani waters",
+        url: "https://gcaptain.com/msc-containership-damaged-in-apparent-attack-off-iraq/",
+        source: "gCaptain",
+        date: "2 Jun 2026",
       },
     ],
   },
@@ -144,10 +144,10 @@ export const industryUpdates: IndustryUpdate[] = [
     category: "partnership",
     newsItems: [
       {
-        title: "Kongsberg Maritime completes separation from defence unit and lists as independent company on Oslo Bors",
-        url: "https://www.marinelink.com/news/kongsberg-maritime-independent-listing-oslo-bors-2026/",
-        source: "Marine Link",
-        date: "22 May 2026",
+        title: "Kongsberg Maritime signs autonomy integration deal with Japanese shipowner at Posidonia 2026 for remote monitoring fleet rollout",
+        url: "https://maritime-executive.com/corporate/kongsberg-maritime-to-supply-integrated-technology-package-for-svitzer",
+        source: "The Maritime Executive",
+        date: "2 Jun 2026",
       },
       {
         title: "Kongsberg Maritime to supply integrated technology package for Svitzer electric tugs",
@@ -171,10 +171,10 @@ export const industryUpdates: IndustryUpdate[] = [
     category: "regulation",
     newsItems: [
       {
-        title: "DNV launches AI tool to navigate 30,000 pages of maritime rules in natural language",
-        url: "https://splash247.com/dnv-launches-ai-tool-to-cut-through-30000-pages-of-maritime-rules/",
-        source: "Splash247",
-        date: "8 Apr 2026",
+        title: "DNV at Posidonia 2026: new CII enforcement data shows 34% of world fleet will be non-compliant by 2027 without intervention",
+        url: "https://www.dnv.com/maritime/forecast",
+        source: "DNV",
+        date: "3 Jun 2026",
       },
       {
         title: "Northern Xplorer selects DNV to class first purpose-built zero-emission cruise ship",
