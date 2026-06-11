@@ -9,22 +9,22 @@ export const industryUpdates: IndustryUpdate[] = [
     category: "sustainability",
     newsItems: [
       {
-        title: "Maersk expands methanol fleet with new vessel delivery — orderbook now at 25 ships",
-        url: "https://www.hellenicshippingnews.com/maersk-expands-methanol-fleet-with-new-delivery/",
-        source: "Hellenic Shipping News",
-        date: "20 May 2026",
+        title: "Maersk prepares contingency $29/share ZIM bid as Hapag-Lloyd's $4.2bn deal faces regulatory scrutiny",
+        url: "https://www.freshplaza.com/north-america/article/9816723/maersk-prepares-backup-bid-for-israel-s-zim-if-hapag-lloyd-deal-fails/",
+        source: "Fresh Plaza",
+        date: "5 Jun 2026",
+      },
+      {
+        title: "Maersk and Hapag-Lloyd focus on US market as MSC strengthens Asia dominance in post-alliance shake-up",
+        url: "https://trans.info/en/global-shipping-shake-up-msc-strengthens-in-asia-as-maersk-and-hapag-lloyd-focus-on-the-us-397403",
+        source: "trans.info",
+        date: "3 Jun 2026",
       },
       {
         title: "Maersk Q1 shipping segment posts loss as freight rates fall 14% and six vessels trapped in Persian Gulf",
         url: "https://maritime-executive.com/article/falling-freight-rates-drive-maersk-to-q1-loss-in-shipping-segment",
         source: "The Maritime Executive",
         date: "15 May 2026",
-      },
-      {
-        title: "Maersk Q1 2026 results beat forecasts as Asia-Europe rate spike and methanol fleet earn green premium",
-        url: "https://www.lloydslist.com/LL1158012/Maersk-Q1-2026-results-beat-forecasts",
-        source: "Lloyd's List",
-        date: "22 May 2026",
       },
     ],
   },
@@ -36,16 +36,16 @@ export const industryUpdates: IndustryUpdate[] = [
     category: "order",
     newsItems: [
       {
+        title: "MSC strengthens Asia dominance in post-Gemini shake-up as Maersk and Hapag-Lloyd pivot to US trade",
+        url: "https://container-news.com/shipping-alliances-carriers-and-msc-continue-to-control-over-82-of-market/",
+        source: "Container News",
+        date: "3 Jun 2026",
+      },
+      {
         title: "MSC hits 1,000 boxships — first container carrier in history with a four-figure fleet",
         url: "https://splash247.com/msc-hits-1000-boxships/",
         source: "Splash247",
         date: "15 Apr 2026",
-      },
-      {
-        title: "MSC opens new Europe–Red Sea–Middle East Express service to bypass Strait of Hormuz closure",
-        url: "https://www.euronews.com/business/2026/05/04/shipping-giant-msc-opens-new-trade-route-to-bypass-hormuz-disruption",
-        source: "Euronews",
-        date: "4 May 2026",
       },
       {
         title: "MSC places order for 10 ammonia-ready ultra-large containerships at Hyundai Heavy Industries",
@@ -90,22 +90,22 @@ export const industryUpdates: IndustryUpdate[] = [
     category: "sustainability",
     newsItems: [
       {
+        title: "ZIM shareholders approve Hapag-Lloyd's $4.2bn all-cash acquisition — combined fleet to top 400 vessels",
+        url: "https://mykn.kuehne-nagel.com/news/article/hapag-lloyd-to-acquire-zim-major-container",
+        source: "Kuehne+Nagel",
+        date: "5 Jun 2026",
+      },
+      {
+        title: "Hapag-Lloyd and Maersk focus on US market as two-carrier Gemini Cooperation controls 21.3% of global capacity",
+        url: "https://trans.info/en/global-shipping-shake-up-msc-strengthens-in-asia-as-maersk-and-hapag-lloyd-focus-on-the-us-397403",
+        source: "trans.info",
+        date: "3 Jun 2026",
+      },
+      {
         title: "Hapag-Lloyd Q1 EBIT loss of $174M as average freight rate falls to $1,330/TEU under ongoing disruption",
         url: "https://trans.info/en/maersk-hapag-lloyd-containers-478240",
         source: "trans.info",
         date: "14 May 2026",
-      },
-      {
-        title: "Hapag-Lloyd and CMA CGM suspend Cuba cargo bookings over asset seizure risk",
-        url: "https://maritime-executive.com/article/facing-risk-of-u-s-sanctions-hapag-and-cma-cgm-suspend-cuba-bookings",
-        source: "The Maritime Executive",
-        date: "6 May 2026",
-      },
-      {
-        title: "China fines Hapag-Lloyd and eight other major carriers over freight rate filing violations",
-        url: "https://www.worldcargonews.com/news/2026/05/china-fines-msc-cma-cgm-hapag-lloyd-and-others-over-freight-rate-filing-breaches/",
-        source: "WorldCargo News",
-        date: "26 May 2026",
       },
     ],
   },
