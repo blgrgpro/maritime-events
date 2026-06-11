@@ -8,14 +8,13 @@ import { countries, categories } from "@/data/events";
 
 interface Props { events: MaritimeEvent[] }
 
-const TODAY = "2026-05-29";
-
 function getMidAttendance(e: MaritimeEvent) {
   return (e.attendance.min + e.attendance.max) / 2;
 }
 
 function isEventPast(e: MaritimeEvent): boolean {
-  return e.dateSort < TODAY;
+  const today = new Date().toISOString().slice(0, 10);
+  return e.dateSort < today;
 }
 
 function matchesSize(e: MaritimeEvent, size: string): boolean {
