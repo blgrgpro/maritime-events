@@ -42,7 +42,7 @@ export default function MaritimeNews() {
           ))}
         </div>
 
-        <p className="text-xs text-slate-400 mt-8 text-right">Last updated 2 Jun 2026</p>
+        <p className="text-xs text-slate-400 mt-8 text-right">Last updated 12 Jun 2026</p>
       </div>
     </section>
   );

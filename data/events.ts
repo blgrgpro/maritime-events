@@ -516,7 +516,7 @@ export const events: MaritimeEvent[] = [
     editions: [
       { year: 2024, date: "June 11–13, 2024", venue: "Southampton", status: "past" },
       { year: 2025, date: "June 10–12, 2025", venue: "Southampton", status: "past" },
-      { year: 2026, date: "June 9–11, 2026", venue: "Southampton", status: "upcoming" },
+      { year: 2026, date: "June 9–11, 2026", venue: "Southampton", status: "past" },
     ],
   },
   {
@@ -1086,7 +1086,7 @@ export const events: MaritimeEvent[] = [
     contact: { name: "Capital Link Events", role: "Forum Office", email: "shipping@capitallink.com" },
     editions: [
       { year: 2024, date: "June 2024", venue: "Athens", status: "past" },
-      { year: 2026, date: "June 3, 2026", venue: "Stavros Niarchos Foundation Cultural Centre", status: "upcoming" },
+      { year: 2026, date: "June 3, 2026", venue: "Stavros Niarchos Foundation Cultural Centre", status: "past" },
     ],
   },
   {
@@ -1115,7 +1115,7 @@ export const events: MaritimeEvent[] = [
     contact: { name: "Marine Money Events", role: "Conference Office", email: "events@marinemoney.com" },
     editions: [
       { year: 2025, date: "June 2025", venue: "London", status: "past" },
-      { year: 2026, date: "June 10–11, 2026", venue: "The Brewery, London", status: "upcoming" },
+      { year: 2026, date: "June 10–11, 2026", venue: "The Brewery, London", status: "past" },
     ],
   },
   {
