@@ -9,6 +9,12 @@ export const industryUpdates: IndustryUpdate[] = [
     category: "sustainability",
     newsItems: [
       {
+        title: "Maersk shares in $40–50M weekly Cape of Good Hope reroute costs as Hormuz closure drags into July",
+        url: "https://www.mightyshipping.com/en/blog/2026-07-01-hormuz-reopening-july-freight-outlook",
+        source: "Mighty Shipping",
+        date: "1 Jul 2026",
+      },
+      {
         title: "Maersk prepares contingency $29/share ZIM bid as Hapag-Lloyd's $4.2bn deal faces regulatory scrutiny",
         url: "https://www.freshplaza.com/north-america/article/9816723/maersk-prepares-backup-bid-for-israel-s-zim-if-hapag-lloyd-deal-fails/",
         source: "Fresh Plaza",
@@ -20,12 +26,6 @@ export const industryUpdates: IndustryUpdate[] = [
         source: "trans.info",
         date: "3 Jun 2026",
       },
-      {
-        title: "Maersk Q1 shipping segment posts loss as freight rates fall 14% and six vessels trapped in Persian Gulf",
-        url: "https://maritime-executive.com/article/falling-freight-rates-drive-maersk-to-q1-loss-in-shipping-segment",
-        source: "The Maritime Executive",
-        date: "15 May 2026",
-      },
     ],
   },
   {
@@ -35,6 +35,12 @@ export const industryUpdates: IndustryUpdate[] = [
     color: "bg-orange-500",
     category: "order",
     newsItems: [
+      {
+        title: "MSC hikes Far East–Europe base rates to $10,100 per container as early peak season squeezes capacity",
+        url: "https://www.msc.com/en/newsroom/customer-advisories/2026/july/trade-from-far-east-to-north-europe-med-and-black-sea",
+        source: "MSC",
+        date: "15 Jul 2026",
+      },
       {
         title: "MPA Singapore and MSC sign MOU on maritime decarbonisation, digitalisation, innovation and seafarer development",
         url: "https://www.msc.com/en/newsroom/news/local-news/singapore/2026/june/mpa-and-msc-sign-memorandum-of-understanding-to-advance-sustainable-and-digital-maritime-development",
@@ -47,12 +53,6 @@ export const industryUpdates: IndustryUpdate[] = [
         source: "Splash247",
         date: "15 Apr 2026",
       },
-      {
-        title: "MSC places order for 10 ammonia-ready ultra-large containerships at Hyundai Heavy Industries",
-        url: "https://splash247.com/msc-orders-ammonia-ready-containerships-hyundai-heavy/",
-        source: "Splash247",
-        date: "23 May 2026",
-      },
     ],
   },
   {
@@ -62,6 +62,12 @@ export const industryUpdates: IndustryUpdate[] = [
     color: "bg-red-600",
     category: "technology",
     newsItems: [
+      {
+        title: "CMA CGM to acquire FedEx Supply Chain for $1.4bn, nearly tripling CEVA Logistics' North American footprint",
+        url: "https://www.aircargonews.net/business/2026/07/cma-cgm-to-acquire-fedex-supply-chain-and-collaborate-on-airfreight/",
+        source: "Air Cargo News",
+        date: "10 Jul 2026",
+      },
       {
         title: "CMA CGM Notre Dame makes maiden Singapore call — world's largest French-flagged LNG containership",
         url: "https://container-news.com/cma-cgm-strengthens-indian-maritime-commitment-with-new-vessel-order/",
@@ -74,12 +80,6 @@ export const industryUpdates: IndustryUpdate[] = [
         source: "Container News",
         date: "4 Jun 2026",
       },
-      {
-        title: "CMA CGM and Hapag-Lloyd suspend Cuba bookings amid US sanctions threat — up to 60% of Cuba's shipping by volume affected",
-        url: "https://maritime-executive.com/article/facing-risk-of-u-s-sanctions-hapag-and-cma-cgm-suspend-cuba-bookings",
-        source: "The Maritime Executive",
-        date: "6 May 2026",
-      },
     ],
   },
   {
@@ -89,6 +89,12 @@ export const industryUpdates: IndustryUpdate[] = [
     color: "bg-yellow-500",
     category: "sustainability",
     newsItems: [
+      {
+        title: "Netanyahu and Katz move to scrap ZIM's $4.2bn sale to Hapag-Lloyd over national security concerns",
+        url: "https://splash247.com/netanyahu-and-katz-urge-zim-sale-be-scrapped/",
+        source: "Splash247",
+        date: "5 Jul 2026",
+      },
       {
         title: "ZIM shareholders approve Hapag-Lloyd's $4.2bn all-cash acquisition — combined fleet to top 400 vessels",
         url: "https://mykn.kuehne-nagel.com/news/article/hapag-lloyd-to-acquire-zim-major-container",
@@ -100,12 +106,6 @@ export const industryUpdates: IndustryUpdate[] = [
         url: "https://trans.info/en/global-shipping-shake-up-msc-strengthens-in-asia-as-maersk-and-hapag-lloyd-focus-on-the-us-397403",
         source: "trans.info",
         date: "3 Jun 2026",
-      },
-      {
-        title: "Hapag-Lloyd Q1 EBIT loss of $174M as average freight rate falls to $1,330/TEU under ongoing disruption",
-        url: "https://trans.info/en/maersk-hapag-lloyd-containers-478240",
-        source: "trans.info",
-        date: "14 May 2026",
       },
     ],
   },
@@ -144,6 +144,12 @@ export const industryUpdates: IndustryUpdate[] = [
     category: "partnership",
     newsItems: [
       {
+        title: "Kongsberg Maritime posts record order backlog in first full quarter as an independent Oslo-listed company",
+        url: "https://www.investing.com/news/company-news/kongsberg-maritime-q2-2026-slides-record-backlog-margin-pressure-93CH-4787758",
+        source: "Investing.com",
+        date: "13 Jul 2026",
+      },
+      {
         title: "Kongsberg Maritime and DNV launch standardised vessel data exchange via Veracity OVD integration",
         url: "https://smartmaritimenetwork.com/2026/06/04/dnv-and-kongsberg-maritime-partner-to-standardise-vessel-data-exchange/",
         source: "Smart Maritime Network",
@@ -155,12 +161,6 @@ export const industryUpdates: IndustryUpdate[] = [
         source: "Marine Link",
         date: "22 May 2026",
       },
-      {
-        title: "Kongsberg Maritime to supply integrated technology package for Svitzer electric tugs",
-        url: "https://maritime-executive.com/corporate/kongsberg-maritime-to-supply-integrated-technology-package-for-svitzer",
-        source: "The Maritime Executive",
-        date: "9 Apr 2026",
-      },
     ],
   },
   {
@@ -170,6 +170,12 @@ export const industryUpdates: IndustryUpdate[] = [
     color: "bg-sky-700",
     category: "regulation",
     newsItems: [
+      {
+        title: "DNV publishes July 2026 class rules edition with new 'Shore power ready' and 'Battery ready' notations",
+        url: "https://www.dnv.com/news/2026/standards-now-available-the-july-2026-edition-of-the-dnv-class-rules-and-standards-for-ship-and-offshore/",
+        source: "DNV",
+        date: "10 Jul 2026",
+      },
       {
         title: "DNV and Kongsberg Maritime standardise vessel data exchange via OVD integration on Veracity platform",
         url: "https://maritime-executive.com/corporate/dnv-and-kongsberg-maritime-enable-secure-operational-vessel-data-exchange",
@@ -181,12 +187,6 @@ export const industryUpdates: IndustryUpdate[] = [
         url: "https://www.dnv.com/maritime/",
         source: "DNV",
         date: "1 Jun 2026",
-      },
-      {
-        title: "DNV launches AI tool to navigate 30,000 pages of maritime rules in natural language",
-        url: "https://splash247.com/dnv-launches-ai-tool-to-cut-through-30000-pages-of-maritime-rules/",
-        source: "Splash247",
-        date: "8 Apr 2026",
       },
     ],
   },
@@ -225,6 +225,12 @@ export const industryUpdates: IndustryUpdate[] = [
     category: "technology",
     newsItems: [
       {
+        title: "Bureau Veritas approvals complete Anemoi's full Rotor Sail wind-assisted propulsion portfolio coverage",
+        url: "https://www.ajot.com/news/latest-bureau-veritas-approvals-strengthen-confidence-in-anemoi-rotor-sail-technology",
+        source: "AJOT",
+        date: "8 Jul 2026",
+      },
+      {
         title: "HD Hyundai Heavy Industries and Bureau Veritas launch JDP on container ship real-time anti-rolling guidance system",
         url: "https://marine-offshore.bureauveritas.com/newsroom",
         source: "Bureau Veritas",
@@ -235,12 +241,6 @@ export const industryUpdates: IndustryUpdate[] = [
         url: "https://marine-offshore.bureauveritas.com/newsroom",
         source: "Bureau Veritas",
         date: "10 Jun 2026",
-      },
-      {
-        title: "BV and CMA CGM launch joint AI framework for predictive hull condition monitoring",
-        url: "https://www.seatrade-maritime.com/keyword/bureau-veritas",
-        source: "Seatrade Maritime",
-        date: "21 Apr 2026",
       },
     ],
   },
@@ -306,16 +306,16 @@ export const industryUpdates: IndustryUpdate[] = [
     category: "order",
     newsItems: [
       {
+        title: "Royal Caribbean eyes second Galveston cruise terminal as Legend of the Seas begins Mediterranean sailings",
+        url: "https://www.royalcaribbeanblog.com/2026/07/19/royal-caribbean-news-round-july-19-2026",
+        source: "Royal Caribbean Blog",
+        date: "19 Jul 2026",
+      },
+      {
         title: "Royal Caribbean takes delivery of Legend of the Seas — third Icon Class ship with capacity for nearly 10,000",
         url: "https://www.prnewswire.com/news-releases/royal-caribbean-officially-welcomes-legend-of-the-seas-to-the-revolutionary-icon-class-built-in-collaboration-with-meyer-turku-302796966.html",
         source: "PR Newswire",
         date: "10 Jun 2026",
-      },
-      {
-        title: "Royal Caribbean orders up to six Discovery class ships and 10 river vessels in €3.5bn Chantiers de l'Atlantique deal",
-        url: "https://www.tradewindsnews.com/cruise-and-ferry/royal-caribbean-group-orders-up-to-six-game-changer-cruise-ships-and-10-river-vessels/2-1-1936430",
-        source: "TradeWinds",
-        date: "4 Feb 2026",
       },
       {
         title: "Royal Caribbean opens new Alaska Railroad Terminal in Seward to expand cruise capacity on railbelt corridor",
@@ -387,16 +387,16 @@ export const industryUpdates: IndustryUpdate[] = [
     category: "sustainability",
     newsItems: [
       {
+        title: "Carnival and Fincantieri cut steel on Carnival Destiny — first Ace-class ship will be the line's largest ever",
+        url: "https://cruiseindustrynews.com/cruise-news/2026/07/carnival-and-fincantieri-cut-steel-for-new-ace-class-destiny/",
+        source: "Cruise Industry News",
+        date: "10 Jul 2026",
+      },
+      {
         title: "Carnival Corporation pioneers cruise industry's first LNG bunkering in Latin America and Western Caribbean on Carnival Jubilee",
         url: "https://www.prnewswire.com/news-releases/carnival-corporation-brings-cruise-industrys-first-lng-bunkering-to-latin-america--western-caribbean-302787106.html",
         source: "PR Newswire",
         date: "1 Jun 2026",
-      },
-      {
-        title: "Carnival Corporation and CCL receive Port of Seattle sustainability awards for Quiet Sound and Our Sea Pledge programmes",
-        url: "https://www.cruisemapper.com/news/16309-carnival-corporation-carnival-cruise-line-receive-sustainability-awards",
-        source: "CruiseMapper",
-        date: "7 Jun 2026",
       },
       {
         title: "Carnival Cruise Line discloses cyber attack that leaked customer data — highlighting maritime sector cybersecurity risk",
@@ -441,16 +441,16 @@ export const industryUpdates: IndustryUpdate[] = [
     category: "sustainability",
     newsItems: [
       {
+        title: "Equinor publishes Q2 2026 financial results amid continued Hormuz-driven energy market volatility",
+        url: "https://www.equinor.com/news/20260708-invitation-consensus-estimates-2q2026",
+        source: "Equinor",
+        date: "22 Jul 2026",
+      },
+      {
         title: "Equinor elects Jarle Roth as new Chair of the Board at Corporate Assembly meeting",
         url: "https://www.equinor.com/news",
         source: "Equinor",
         date: "8 Jun 2026",
-      },
-      {
-        title: "Equinor signs two-year bio-methanol bunker supply agreement with Wallenius Wilhelmsen — Zeebrugge and Antwerp from late 2026",
-        url: "https://www.equinor.com/news/20260311-bio-methanol-agreement-wallenius-wilhelmsen",
-        source: "Equinor",
-        date: "11 Mar 2026",
       },
       {
         title: "Equinor makes final investment decision on Trollvind — Norway's first large-scale floating offshore wind farm",

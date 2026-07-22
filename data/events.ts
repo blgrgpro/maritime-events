@@ -480,7 +480,7 @@ export const events: MaritimeEvent[] = [
     editions: [
       { year: 2024, date: "May 21–23, 2024", venue: "Rotterdam Ahoy", status: "past" },
       { year: 2025, date: "June 3–5, 2025", venue: "Rotterdam Ahoy", status: "past" },
-      { year: 2026, date: "June 16–18, 2026", venue: "Rotterdam Ahoy", status: "upcoming" },
+      { year: 2026, date: "June 16–18, 2026", venue: "Rotterdam Ahoy", status: "past" },
     ],
   },
   {
@@ -552,7 +552,7 @@ export const events: MaritimeEvent[] = [
     editions: [
       { year: 2024, date: "June 2024", venue: "Bella Center", status: "past" },
       { year: 2025, date: "June 2025", venue: "Bella Center", status: "past" },
-      { year: 2026, date: "June 16–17, 2026", venue: "Bella Center", status: "upcoming" },
+      { year: 2026, date: "June 16–17, 2026", venue: "Bella Center", status: "past" },
     ],
   },
   {
@@ -588,7 +588,7 @@ export const events: MaritimeEvent[] = [
     editions: [
       { year: 2024, date: "June 2024", venue: "Amsterdam RAI", status: "past" },
       { year: 2025, date: "June 2025", venue: "Amsterdam RAI", status: "past" },
-      { year: 2026, date: "June 16–18, 2026", venue: "Amsterdam RAI", status: "upcoming" },
+      { year: 2026, date: "June 16–18, 2026", venue: "Amsterdam RAI", status: "past" },
     ],
   },
   {
@@ -624,7 +624,7 @@ export const events: MaritimeEvent[] = [
     editions: [
       { year: 2024, date: "June 2024", venue: "Rotterdam", status: "past" },
       { year: 2025, date: "June 2025", venue: "Rotterdam", status: "past" },
-      { year: 2026, date: "June 16–18, 2026", venue: "Rotterdam Ahoy", status: "upcoming" },
+      { year: 2026, date: "June 16–18, 2026", venue: "Rotterdam Ahoy", status: "past" },
     ],
   },
   {
@@ -660,7 +660,7 @@ export const events: MaritimeEvent[] = [
     editions: [
       { year: 2024, date: "June 2024", venue: "London", status: "past" },
       { year: 2025, date: "June 2025", venue: "London", status: "past" },
-      { year: 2026, date: "June 23–24, 2026", venue: "London", status: "upcoming" },
+      { year: 2026, date: "June 23–24, 2026", venue: "London", status: "past" },
     ],
   },
   {
@@ -1290,6 +1290,66 @@ export const events: MaritimeEvent[] = [
     editions: [
       { year: 2024, date: "November 19–21, 2024", venue: "RAI Amsterdam", status: "past" },
       { year: 2026, date: "November 18–20, 2026", venue: "RAI Amsterdam", status: "upcoming" },
+    ],
+  },
+  {
+    id: "sname-maritime-convention-2026",
+    slug: "sname-maritime-convention-2026",
+    name: "SNAME Maritime Convention 2026",
+    city: "Houston",
+    country: "United States",
+    countryCode: "US",
+    date: "October 28–30, 2026",
+    dateSort: "2026-10-28",
+    categories: ["Shipbuilding & Repair", "Maritime Technology"],
+    primaryCategory: "Shipbuilding & Repair",
+    attendance: { min: 800, max: 1200 },
+    eventType: "conference",
+    accessType: "paid",
+    attendeeFocus: "mixed",
+    networkingLevel: "Medium",
+    venue: "Royal Sonesta Houston Galleria, Houston",
+    organizer: "Society of Naval Architects and Marine Engineers (SNAME)",
+    website: "https://sname.org/sname-maritime-convention-2026",
+    description: "SNAME's flagship annual technical convention — themed 'Shaping the Future: Technologies and Processes to Improve Shipbuilding, Design, and Operations' for 2026 — bringing together naval architects, marine engineers, equipment suppliers, and shipyard leaders from across North America.",
+    importanceForUs: "SMC is the most concentrated gathering of US naval architecture and marine engineering talent, at a moment when American shipbuilding capacity is a live policy priority. It gives us visibility into which technical innovations are gaining traction with US shipyards and engineering firms — a segment underrepresented in the largely European conference calendar we already track.",
+    importanceForEcosystem: "With US shipbuilding under renewed strategic and legislative attention, SMC's technical programme increasingly doubles as a barometer for which design and production technologies domestic yards are prepared to adopt at scale — shaping procurement decisions across the US commercial and naval shipbuilding base.",
+    whoAttends: { shipowners: 10, investors: 5, startups: 15, corporates: 45, regulators: 25 },
+    contact: { name: "SNAME", role: "Convention Office", email: "info@sname.org" },
+    editions: [
+      { year: 2024, date: "October 2024", venue: "Providence, Rhode Island", status: "past" },
+      { year: 2025, date: "October 2025", venue: "Louisiana", status: "past" },
+      { year: 2026, date: "October 28–30, 2026", venue: "Royal Sonesta Houston Galleria", status: "upcoming" },
+    ],
+  },
+  {
+    id: "maritime-india-conference-expo-2026",
+    slug: "maritime-india-conference-expo-2026",
+    name: "Maritime India Conference & Expo 2026",
+    city: "Mumbai",
+    country: "India",
+    countryCode: "IN",
+    date: "November 2–4, 2026",
+    dateSort: "2026-11-02",
+    categories: ["Ports & Terminals", "Maritime Logistics & Supply Chain", "Shipping & Ocean Transport"],
+    primaryCategory: "Ports & Terminals",
+    attendance: { min: 5000, max: 8000 },
+    eventType: "expo",
+    accessType: "paid",
+    attendeeFocus: "government",
+    networkingLevel: "High",
+    venue: "Bombay Exhibition Centre, Mumbai",
+    organizer: "FICCI, in partnership with India's Ministry of Ports, Shipping & Waterways",
+    website: "https://maritimeindia.ficci.in/",
+    description: "The 4th edition of India's flagship maritime sector gathering — convening government, port authorities, shipbuilders, and logistics operators around India's Maritime Amrit Kaal Vision, with keynotes, investment showcases, and an exhibition spanning ports, shipbuilding, and inland waterways.",
+    importanceForUs: "India is rapidly scaling port capacity, domestic shipbuilding, and inland waterway logistics under active government sponsorship — creating one of the fastest-growing procurement environments in global maritime outside Europe. This event is our clearest single window into which Indian ports, yards, and logistics operators are open to ecosystem partnerships and technology pilots.",
+    importanceForEcosystem: "As the Indian government pursues its Maritime Amrit Kaal Vision targets for port and shipbuilding capacity, this conference is where investment-ready projects are presented directly to government and industry decision-makers — making it an increasingly influential venue for capital allocation across South Asian maritime infrastructure.",
+    whoAttends: { shipowners: 15, investors: 15, startups: 15, corporates: 30, regulators: 25 },
+    contact: { name: "FICCI Maritime India", role: "Conference Secretariat", email: "maritimeindia@ficci.com" },
+    editions: [
+      { year: 2023, date: "October 2023", venue: "Mumbai", status: "past" },
+      { year: 2024, date: "March 2024", venue: "Mumbai", status: "past" },
+      { year: 2026, date: "November 2–4, 2026", venue: "Bombay Exhibition Centre, Mumbai", status: "upcoming" },
     ],
   },
   // ── 2027 ────────────────────────────────────────────────────────────────────
