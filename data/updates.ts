@@ -117,22 +117,22 @@ export const industryUpdates: IndustryUpdate[] = [
     category: "technology",
     newsItems: [
       {
+        title: "Wärtsilä and Carnival sign 8-year Lifecycle Agreement covering four LNG-powered cruise ships",
+        url: "https://www.wartsila.com/media/news/20-07-2026-wartsila-and-carnival-corporation-extend-long-standing-collaboration-with-lifecycle-agreement-supporting-lng-powered-cruise-fleet-performance-3773563",
+        source: "Wärtsilä",
+        date: "20 Jul 2026",
+      },
+      {
+        title: "Wärtsilä signs five-year Lifecycle Agreement with Pardus Energy to support FSRU 'Turquoise P' operations",
+        url: "https://www.wartsila.com/media/news/15-07-2026-wartsila-agreement-to-strengthen-operational-reliability-and-maintenance-predictability-for-pardus-energy-fsru-3772478",
+        source: "Wärtsilä",
+        date: "15 Jul 2026",
+      },
+      {
         title: "Wärtsilä completes Gas Solutions and Water & Waste divestitures — portfolio refocus on marine and energy complete",
         url: "https://www.indexbox.io/blog/wartsila-completes-divestment-of-gas-solutions-and-water-and-waste-businesses/",
         source: "IndexBox",
         date: "1 Jun 2026",
-      },
-      {
-        title: "Wärtsilä NTPRO 7 simulation platform commercially available with DNV compliance and Unreal Engine 5 visualisation",
-        url: "https://www.wartsila.com/media/news/21-04-2026-wartsila-launches-next-generation-simulation-platform-to-support-future-ready-maritime-training-3743424",
-        source: "Wärtsilä",
-        date: "21 Apr 2026",
-      },
-      {
-        title: "Digital twin marine market to reach $2.4bn by 2032 — Wärtsilä named among key players driving 23% CAGR",
-        url: "https://www.globenewswire.com/news-release/2026/05/08/3291156/28124/en/Digital-Twin-in-Marine-Market-Report-2026-2032-Featuring-Siemens-Dassault-Systemes-ABB-Wartsila-Kongsberg-Maritime-and-Other-Key-Players.html",
-        source: "GlobeNewswire",
-        date: "8 May 2026",
       },
     ],
   },
@@ -198,22 +198,22 @@ export const industryUpdates: IndustryUpdate[] = [
     category: "regulation",
     newsItems: [
       {
+        title: "Lloyd's Register grants Approval in Principle to GTT for new NO96 LNG containment system elongation criteria",
+        url: "https://cyprusshippingnews.com/2026/07/21/lloyds-register-grants-aip-to-gtt-for-new-no96-elongation-criteria/",
+        source: "Cyprus Shipping News",
+        date: "21 Jul 2026",
+      },
+      {
+        title: "Lloyd's Register launches feeder-fleet renewal campaign as ageing vessels face tighter regulation and rising costs",
+        url: "https://cyprusshippingnews.com/2026/07/16/lloyds-register-targets-ageing-feeder-fleet-with-retrofit-and-renewal-push/",
+        source: "Cyprus Shipping News",
+        date: "16 Jul 2026",
+      },
+      {
         title: "Lloyd's Register certifies XOCEAN and Fugro unmanned surface vessels for commercial operations — fleet agreement signed",
         url: "https://oceannews.com/news/science-technology/lloyds-register-advances-unmanned-marine-systems-from-trials-to-commercial-operations",
         source: "Ocean News",
         date: "5 Jun 2026",
-      },
-      {
-        title: "Lloyd's Register, Samsung HI and Capital Clean Energy sign MOU for floating data center JDP at Posidonia",
-        url: "https://safety4sea.com/new-initiatives-formed-to-advance-ai-infrastructure-and-autonomous-vessel-design/",
-        source: "Safety4Sea",
-        date: "3 Jun 2026",
-      },
-      {
-        title: "Lloyd's Register co-publishes Advanced Maritime Nuclear policy framework for UK Government SMR deployment",
-        url: "https://www.lr.org/en/",
-        source: "Lloyd's Register",
-        date: "14 Apr 2026",
       },
     ],
   },
@@ -252,16 +252,16 @@ export const industryUpdates: IndustryUpdate[] = [
     category: "order",
     newsItems: [
       {
+        title: "Stena Line completes paperless rollout with Telko electronic record system across all 32 RoPax and RoRo vessels",
+        url: "https://thedigitalship.com/news/maritime-software/stena-line-completes-32-vessel-paperless-rollout-with-telko-electronic-record-system/",
+        source: "Digital Ship",
+        date: "14 Jul 2026",
+      },
+      {
         title: "Stena continues fleet modernisation with order for new, larger Ro-Ro vessel design",
         url: "https://maritime-executive.com/article/stena-continues-fleet-modernization-with-order-for-new-larger-ro-ro-design",
         source: "The Maritime Executive",
         date: "16 Apr 2026",
-      },
-      {
-        title: "Stena RoRo takes delivery of 13th E-Flexer RoPax ferry from China Merchants",
-        url: "https://maritime-executive.com/corporate/stena-roro-takes-delivery-of-the-13th-e-flexer-from-the-china-merchants",
-        source: "The Maritime Executive",
-        date: "5 Mar 2026",
       },
       {
         title: "Stena Line sells chartered ro-pax Stena Vinga to DFDS with completion expected November 2026",
@@ -279,10 +279,10 @@ export const industryUpdates: IndustryUpdate[] = [
     category: "order",
     newsItems: [
       {
-        title: "DFDS sells historic Oslo-Copenhagen passenger route to refocus on logistics growth",
-        url: "https://maritime-executive.com/article/dfds-sells-historic-passenger-route-to-focus-on-logistics",
-        source: "The Maritime Executive",
-        date: "24 Mar 2026",
+        title: "DFDS appoints Michael Hansen, ex-Hempel CEO, as President & CEO effective 1 July 2026",
+        url: "https://www.marketscreener.com/news/dfds-ceo-steps-down-michael-hansen-to-be-appointed-on-july-1-2026-ce7e5ed3d98df72d",
+        source: "MarketScreener",
+        date: "1 Jul 2026",
       },
       {
         title: "DFDS orders two battery-electric ro-ro ferries for North Sea short-sea operations",
@@ -333,22 +333,22 @@ export const industryUpdates: IndustryUpdate[] = [
     category: "technology",
     newsItems: [
       {
+        title: "Everllence launches 175D GenSet delivering 2.4 MWe of standby power for data centre backup applications",
+        url: "https://gastopowerjournal.com/news/technologyinnovation/everllence-launches-175d-genset-for-data-center-backup-power/",
+        source: "Gas to Power Journal",
+        date: "21 Jul 2026",
+      },
+      {
+        title: "WE Tech Solutions and Everllence partner to expand PrimeServ Omnicare maritime decarbonisation offering",
+        url: "https://www.everllence.com/",
+        source: "Everllence",
+        date: "6 Jul 2026",
+      },
+      {
         title: "MAN Energy Solutions completes rebrand to Everllence — repositioning as decarbonisation and efficiency solutions company",
         url: "https://www.marinelink.com/news/man-energy-solutions-rebrands-everllence-526484",
         source: "Marine Link",
         date: "1 Jun 2026",
-      },
-      {
-        title: "Everllence schedules ExpertTalk on MAN 175D GenSet delivering up to 4,400 kW for naval vessel applications",
-        url: "https://www.everllence.com/",
-        source: "Everllence",
-        date: "10 Jun 2026",
-      },
-      {
-        title: "MAN's two-stroke ammonia engine completes first 1,000-hour endurance test at Augsburg",
-        url: "https://www.hellenicshippingnews.com/tag/man-energy-solutions/",
-        source: "Hellenic Shipping News",
-        date: "29 Apr 2026",
       },
     ],
   },
@@ -360,6 +360,12 @@ export const industryUpdates: IndustryUpdate[] = [
     category: "technology",
     newsItems: [
       {
+        title: "ABB agrees to acquire Norwegian marine automation specialist Høglund, expected to close Q3 2026",
+        url: "https://news.europawire.eu/hoglund-marine-automation-business-to-join-abb-marine-and-ports-division/eu-press-release/2026/06/26/18/01/16/177143/",
+        source: "EuropaWire",
+        date: "26 Jun 2026",
+      },
+      {
         title: "ABB wins contract with Cochin Shipyard for power and propulsion systems on India's first electric green tugs",
         url: "https://realtynmore.com/abb-and-cochin-shipyard-power-electric-tugs/",
         source: "Realty N More",
@@ -370,12 +376,6 @@ export const industryUpdates: IndustryUpdate[] = [
         url: "https://www.marinelink.com/companies/abb-marine-as-81045",
         source: "Marine Link",
         date: "2 Apr 2026",
-      },
-      {
-        title: "ABB launches next-generation Ability Marine Advisory System with AI weather routing",
-        url: "https://www.hellenicshippingnews.com/tag/abb/",
-        source: "Hellenic Shipping News",
-        date: "18 Mar 2026",
       },
     ],
   },
@@ -414,16 +414,16 @@ export const industryUpdates: IndustryUpdate[] = [
     category: "partnership",
     newsItems: [
       {
+        title: "Wallenius Wilhelmsen takes delivery of Arctic Tern, first of six methanol dual-fuel Shaper Class car carriers",
+        url: "https://www.ajot.com/news/wallenius-wilhelmsen-takes-delivery-of-first-shaper-class-vessel",
+        source: "AJOT",
+        date: "9 Jul 2026",
+      },
+      {
         title: "Wilhelmsen Ship Management launches Cyclus Marine — dedicated vessel lifecycle company from newbuild to recycling",
         url: "https://www.wilhelmsen.com/media-news-and-events/press-releases/2026/wilhelmsen-ship-management-launches-dedicated-vessel-lifecycle-company-cyclus-marine/",
         source: "Wilhelmsen",
         date: "16 Apr 2026",
-      },
-      {
-        title: "Wilhelmsen and MPC Capital launch Waterway IT — global vessel IT joint venture with 400 vessels onboarded at launch",
-        url: "https://www.wilhelmsen.com/media-news-and-events/press-releases/2026/waterway-it-a-new-global-platform-for-onboard-vessel-it/",
-        source: "Wilhelmsen",
-        date: "1 Apr 2026",
       },
       {
         title: "Wilhelmsen commits to recruiting 1,000 Kenyan seafarers by 2030 — first 120 to join before end of 2026",

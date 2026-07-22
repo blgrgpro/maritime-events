@@ -2,6 +2,36 @@ import { MaritimeNewsItem } from "@/types";
 
 export const maritimeNews: MaritimeNewsItem[] = [
   {
+    id: "wartsila-h1-2026-record-orders",
+    title: "Wärtsilä posts all-time-high order intake in H1 2026 — up 23% to €4.9bn on record Marine and Energy demand",
+    url: "https://www.wartsila.com/media/news/21-07-2026-wartsila-s-half-year-financial-report-january-june-2026-3773763",
+    source: "Wärtsilä",
+    date: "21 Jul 2026",
+    summary: "Wärtsilä's H1 2026 order intake rose 23% year-on-year to €4,934M, with combined Marine and Energy orders up 37% to €4,810M and the order book climbing 13% to €8,976M. The comparable operating margin improved to 13.7% of net sales, and the company flagged a second consecutive record quarter for Energy orders alongside record-high Marine bookings in Q2.",
+    category: "Shipping",
+    categoryColor: "bg-blue-50 text-blue-700 border-blue-200",
+  },
+  {
+    id: "lloyds-list-maritime-intelligence-unit",
+    title: "Lloyd's List launches Maritime Intelligence Unit to help owners navigate a more disrupted operating environment",
+    url: "https://insurance-edge.net/2026/07/17/lloyds-list-launches-maritime-intelligence-unit/",
+    source: "Insurance Edge",
+    date: "17 Jul 2026",
+    summary: "Lloyd's List Intelligence has stood up a dedicated Maritime Intelligence Unit aimed at helping shipowners, insurers, and financiers make clearer decisions amid the Hormuz crisis, sanctions enforcement, and shifting trade patterns — reflecting how thoroughly geopolitical risk has moved from a periodic concern to a permanent operating condition for the industry.",
+    category: "Technology",
+    categoryColor: "bg-violet-50 text-violet-700 border-violet-200",
+  },
+  {
+    id: "abb-hoglund-acquisition",
+    title: "ABB agrees to acquire Norwegian marine automation specialist Høglund, deal expected to close Q3 2026",
+    url: "https://news.europawire.eu/hoglund-marine-automation-business-to-join-abb-marine-and-ports-division/eu-press-release/2026/06/26/18/01/16/177143/",
+    source: "EuropaWire",
+    date: "26 Jun 2026",
+    summary: "ABB Marine & Ports will absorb Høglund's marine automation business, broadening ABB's control-systems footprint and giving Høglund's existing customers access to ABB's larger global service network. The deal continues a wave of consolidation among mid-tier marine technology and automation vendors as fleet digitalisation accelerates.",
+    category: "Technology",
+    categoryColor: "bg-violet-50 text-violet-700 border-violet-200",
+  },
+  {
     id: "hormuz-effectively-closed-july2026",
     title: "Strait of Hormuz effectively closed to commercial shipping — traffic collapses to 10 ships a day versus normal 88",
     url: "https://www.cnbc.com/2026/07/17/iran-war-oil-tanker-strait-hormuz-traffic-attacks-trump.html",
