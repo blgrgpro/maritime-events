@@ -1,14 +1,20 @@
 import { Anchor, Globe, CalendarDays, Users2, Tag } from "lucide-react";
-import { events } from "@/data/events";
+import { events, countries, categories } from "@/data/events";
 import EventGrid from "@/components/EventGrid";
 import IndustryUpdates from "@/components/IndustryUpdates";
 import MaritimeNews from "@/components/MaritimeNews";
 
+const totalAttendees = events.reduce(
+  (sum, e) => sum + (e.attendance.min + e.attendance.max) / 2,
+  0
+);
+const formatTotal = (n: number) => `${Math.round(n / 1000)}K+`;
+
 const STATS = [
-  { icon: Globe,        value: "10",    label: "Countries" },
-  { icon: CalendarDays, value: "43",    label: "Events" },
-  { icon: Users2,       value: "200K+", label: "Total Attendees" },
-  { icon: Tag,          value: "10",    label: "Categories" },
+  { icon: Globe,        value: String(countries.length),   label: "Countries" },
+  { icon: CalendarDays, value: String(events.length),       label: "Events" },
+  { icon: Users2,       value: formatTotal(totalAttendees), label: "Total Attendees" },
+  { icon: Tag,          value: String(categories.length),   label: "Categories" },
 ];
 
 export default function HomePage() {

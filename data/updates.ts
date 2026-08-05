@@ -9,6 +9,12 @@ export const industryUpdates: IndustryUpdate[] = [
     category: "sustainability",
     newsItems: [
       {
+        title: "Maersk gains 2.7 points in northern intra-European traffic, closing in on MSC's regional lead",
+        url: "https://www.elestrechodigital.com/en/2026/07/29/maersk-gains-27-points-in-the-northern-intra-european-traffic-and-approaches-the-leadership-of-msc",
+        source: "El Estrecho Digital",
+        date: "29 Jul 2026",
+      },
+      {
         title: "Maersk shares in $40–50M weekly Cape of Good Hope reroute costs as Hormuz closure drags into July",
         url: "https://www.mightyshipping.com/en/blog/2026-07-01-hormuz-reopening-july-freight-outlook",
         source: "Mighty Shipping",
@@ -20,12 +26,6 @@ export const industryUpdates: IndustryUpdate[] = [
         source: "Fresh Plaza",
         date: "5 Jun 2026",
       },
-      {
-        title: "Maersk and Hapag-Lloyd focus on US market as MSC strengthens Asia dominance in post-alliance shake-up",
-        url: "https://trans.info/en/global-shipping-shake-up-msc-strengthens-in-asia-as-maersk-and-hapag-lloyd-focus-on-the-us-397403",
-        source: "trans.info",
-        date: "3 Jun 2026",
-      },
     ],
   },
   {
@@ -35,6 +35,12 @@ export const industryUpdates: IndustryUpdate[] = [
     color: "bg-orange-500",
     category: "order",
     newsItems: [
+      {
+        title: "MSC raises Emergency Fuel Surcharge across Northern Europe, North East Med and Black Sea short-sea trades",
+        url: "https://www.msc.com/en/newsroom/customer-advisories/2026/july/efs-trades-from-to-nwc-north-east-med-intra-europe-and-intra-greece-turkey-black-sea",
+        source: "MSC",
+        date: "27 Jul 2026",
+      },
       {
         title: "MSC hikes Far East–Europe base rates to $10,100 per container as early peak season squeezes capacity",
         url: "https://www.msc.com/en/newsroom/customer-advisories/2026/july/trade-from-far-east-to-north-europe-med-and-black-sea",
@@ -46,12 +52,6 @@ export const industryUpdates: IndustryUpdate[] = [
         url: "https://www.msc.com/en/newsroom/news/local-news/singapore/2026/june/mpa-and-msc-sign-memorandum-of-understanding-to-advance-sustainable-and-digital-maritime-development",
         source: "MSC",
         date: "4 Jun 2026",
-      },
-      {
-        title: "MSC hits 1,000 boxships — first container carrier in history with a four-figure fleet",
-        url: "https://splash247.com/msc-hits-1000-boxships/",
-        source: "Splash247",
-        date: "15 Apr 2026",
       },
     ],
   },
@@ -69,16 +69,16 @@ export const industryUpdates: IndustryUpdate[] = [
         date: "10 Jul 2026",
       },
       {
+        title: "CMA CGM's Saadé says group aims to overtake Maersk as world's second-largest carrier within 18 months",
+        url: "https://www.elestrechodigital.com/en/2026/07/07/cma-cgm-aims-to-overtake-maersk-as-the-second-largest-shipping-company-in-the-world",
+        source: "El Estrecho Digital",
+        date: "7 Jul 2026",
+      },
+      {
         title: "CMA CGM Notre Dame makes maiden Singapore call — world's largest French-flagged LNG containership",
         url: "https://container-news.com/cma-cgm-strengthens-indian-maritime-commitment-with-new-vessel-order/",
         source: "Container News",
         date: "1 Jun 2026",
-      },
-      {
-        title: "CMA CGM finalises contract with Cochin Shipyard for six India-built 1,700 TEU LNG container ships",
-        url: "https://container-news.com/cma-cgm-strengthens-indian-maritime-commitment-with-new-vessel-order/",
-        source: "Container News",
-        date: "4 Jun 2026",
       },
     ],
   },
@@ -312,16 +312,16 @@ export const industryUpdates: IndustryUpdate[] = [
         date: "19 Jul 2026",
       },
       {
+        title: "Italian court halts Royal Caribbean-backed €600M Fiumicino cruise port near Rome over environmental permit flaws",
+        url: "https://www.cruisehive.com/italian-court-halts-royal-caribbean-cruise-port-near-rome/212670",
+        source: "Cruise Hive",
+        date: "3 Jul 2026",
+      },
+      {
         title: "Royal Caribbean takes delivery of Legend of the Seas — third Icon Class ship with capacity for nearly 10,000",
         url: "https://www.prnewswire.com/news-releases/royal-caribbean-officially-welcomes-legend-of-the-seas-to-the-revolutionary-icon-class-built-in-collaboration-with-meyer-turku-302796966.html",
         source: "PR Newswire",
         date: "10 Jun 2026",
-      },
-      {
-        title: "Royal Caribbean opens new Alaska Railroad Terminal in Seward to expand cruise capacity on railbelt corridor",
-        url: "https://www.cruisemapper.com/news",
-        source: "CruiseMapper",
-        date: "2 Jun 2026",
       },
     ],
   },
@@ -447,16 +447,16 @@ export const industryUpdates: IndustryUpdate[] = [
         date: "22 Jul 2026",
       },
       {
+        title: "Equinor agrees to acquire bp's stake in Bay du Nord, taking full ownership of the offshore Canada project",
+        url: "https://cyprusshippingnews.com/2026/07/08/equinor-acquires-bps-interest-in-bay-du-nord-project/",
+        source: "Cyprus Shipping News",
+        date: "8 Jul 2026",
+      },
+      {
         title: "Equinor elects Jarle Roth as new Chair of the Board at Corporate Assembly meeting",
         url: "https://www.equinor.com/news",
         source: "Equinor",
         date: "8 Jun 2026",
-      },
-      {
-        title: "Equinor makes final investment decision on Trollvind — Norway's first large-scale floating offshore wind farm",
-        url: "https://www.hellenicshippingnews.com/equinor-trollvind-floating-offshore-wind-fid/",
-        source: "Hellenic Shipping News",
-        date: "21 May 2026",
       },
     ],
   },
