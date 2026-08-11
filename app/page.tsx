@@ -5,8 +5,8 @@ import IndustryUpdates from "@/components/IndustryUpdates";
 import MaritimeNews from "@/components/MaritimeNews";
 
 const STATS = [
-  { icon: Globe,        value: "10",    label: "Countries" },
-  { icon: CalendarDays, value: "43",    label: "Events" },
+  { icon: Globe,        value: "14",    label: "Countries" },
+  { icon: CalendarDays, value: "50",    label: "Events" },
   { icon: Users2,       value: "200K+", label: "Total Attendees" },
   { icon: Tag,          value: "10",    label: "Categories" },
 ];

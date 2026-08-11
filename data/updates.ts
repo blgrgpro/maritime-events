@@ -9,6 +9,12 @@ export const industryUpdates: IndustryUpdate[] = [
     category: "sustainability",
     newsItems: [
       {
+        title: "Maersk launches integrated Chile–US East Coast cold chain solution for grapes and other regulated produce",
+        url: "https://www.maersk.com/news/articles/2026/07/23/maersk-cold-chain-chile-us-east-coast-produce",
+        source: "Maersk",
+        date: "23 Jul 2026",
+      },
+      {
         title: "Maersk shares in $40–50M weekly Cape of Good Hope reroute costs as Hormuz closure drags into July",
         url: "https://www.mightyshipping.com/en/blog/2026-07-01-hormuz-reopening-july-freight-outlook",
         source: "Mighty Shipping",
@@ -20,12 +26,6 @@ export const industryUpdates: IndustryUpdate[] = [
         source: "Fresh Plaza",
         date: "5 Jun 2026",
       },
-      {
-        title: "Maersk and Hapag-Lloyd focus on US market as MSC strengthens Asia dominance in post-alliance shake-up",
-        url: "https://trans.info/en/global-shipping-shake-up-msc-strengthens-in-asia-as-maersk-and-hapag-lloyd-focus-on-the-us-397403",
-        source: "trans.info",
-        date: "3 Jun 2026",
-      },
     ],
   },
   {
@@ -35,6 +35,12 @@ export const industryUpdates: IndustryUpdate[] = [
     color: "bg-orange-500",
     category: "order",
     newsItems: [
+      {
+        title: "MSC issues new Far East–Europe FAK rates effective 15 August as carriers test peak-season pricing power",
+        url: "https://www.msc.com/en/newsroom/customer-advisories/2026/july/pa-trade-from-far-east-to-north-europe-med-and-black-sea",
+        source: "MSC",
+        date: "31 Jul 2026",
+      },
       {
         title: "MSC hikes Far East–Europe base rates to $10,100 per container as early peak season squeezes capacity",
         url: "https://www.msc.com/en/newsroom/customer-advisories/2026/july/trade-from-far-east-to-north-europe-med-and-black-sea",
@@ -47,12 +53,6 @@ export const industryUpdates: IndustryUpdate[] = [
         source: "MSC",
         date: "4 Jun 2026",
       },
-      {
-        title: "MSC hits 1,000 boxships — first container carrier in history with a four-figure fleet",
-        url: "https://splash247.com/msc-hits-1000-boxships/",
-        source: "Splash247",
-        date: "15 Apr 2026",
-      },
     ],
   },
   {
@@ -62,6 +62,12 @@ export const industryUpdates: IndustryUpdate[] = [
     color: "bg-red-600",
     category: "technology",
     newsItems: [
+      {
+        title: "CMA CGM rolls out new Peak Season and dangerous-goods surcharges across Far East trades",
+        url: "https://container-news.com/cma-cgm-introduces-pss-on-several-far-east-trades/",
+        source: "Container News",
+        date: "6 Aug 2026",
+      },
       {
         title: "CMA CGM to acquire FedEx Supply Chain for $1.4bn, nearly tripling CEVA Logistics' North American footprint",
         url: "https://www.aircargonews.net/business/2026/07/cma-cgm-to-acquire-fedex-supply-chain-and-collaborate-on-airfreight/",
@@ -74,12 +80,6 @@ export const industryUpdates: IndustryUpdate[] = [
         source: "Container News",
         date: "1 Jun 2026",
       },
-      {
-        title: "CMA CGM finalises contract with Cochin Shipyard for six India-built 1,700 TEU LNG container ships",
-        url: "https://container-news.com/cma-cgm-strengthens-indian-maritime-commitment-with-new-vessel-order/",
-        source: "Container News",
-        date: "4 Jun 2026",
-      },
     ],
   },
   {
@@ -89,6 +89,12 @@ export const industryUpdates: IndustryUpdate[] = [
     color: "bg-yellow-500",
     category: "sustainability",
     newsItems: [
+      {
+        title: "Maersk and Hapag-Lloyd add Jeddah call to AE15 Asia–Mediterranean service as Red Sea return expands",
+        url: "https://gcaptain.com/maersk-and-hapag-lloyd-expand-red-sea-return-with-new-jeddah-call/",
+        source: "gCaptain",
+        date: "1 Aug 2026",
+      },
       {
         title: "Netanyahu and Katz move to scrap ZIM's $4.2bn sale to Hapag-Lloyd over national security concerns",
         url: "https://splash247.com/netanyahu-and-katz-urge-zim-sale-be-scrapped/",
@@ -100,12 +106,6 @@ export const industryUpdates: IndustryUpdate[] = [
         url: "https://mykn.kuehne-nagel.com/news/article/hapag-lloyd-to-acquire-zim-major-container",
         source: "Kuehne+Nagel",
         date: "5 Jun 2026",
-      },
-      {
-        title: "Hapag-Lloyd and Maersk focus on US market as two-carrier Gemini Cooperation controls 21.3% of global capacity",
-        url: "https://trans.info/en/global-shipping-shake-up-msc-strengthens-in-asia-as-maersk-and-hapag-lloyd-focus-on-the-us-397403",
-        source: "trans.info",
-        date: "3 Jun 2026",
       },
     ],
   },
@@ -225,6 +225,12 @@ export const industryUpdates: IndustryUpdate[] = [
     category: "technology",
     newsItems: [
       {
+        title: "Swan Defence wins Svitzer order for four Bureau Veritas-classed TRAnsverse 3200 tugs",
+        url: "https://www.marinelink.com/news/sdhi-build-four-svitzer-tugs-541874",
+        source: "Marine Link",
+        date: "6 Aug 2026",
+      },
+      {
         title: "Bureau Veritas approvals complete Anemoi's full Rotor Sail wind-assisted propulsion portfolio coverage",
         url: "https://www.ajot.com/news/latest-bureau-veritas-approvals-strengthen-confidence-in-anemoi-rotor-sail-technology",
         source: "AJOT",
@@ -235,12 +241,6 @@ export const industryUpdates: IndustryUpdate[] = [
         url: "https://marine-offshore.bureauveritas.com/newsroom",
         source: "Bureau Veritas",
         date: "5 Jun 2026",
-      },
-      {
-        title: "Bureau Veritas hosts Posidonia Maritime Digitalisation Forum exploring autonomous vessel certification and digital twins",
-        url: "https://marine-offshore.bureauveritas.com/newsroom",
-        source: "Bureau Veritas",
-        date: "10 Jun 2026",
       },
     ],
   },
@@ -279,6 +279,12 @@ export const industryUpdates: IndustryUpdate[] = [
     category: "order",
     newsItems: [
       {
+        title: "DFDS Ferry Division head Mathieu Girardin to step down 14 August after four-year tenure",
+        url: "https://www.globenewswire.com/news-release/2026/08/06/3340538/0/en/DFDS-HEAD-OF-FERRY-DIVISION-MATHIEU-GIRARDIN-TO-LEAVE.html",
+        source: "GlobeNewswire",
+        date: "6 Aug 2026",
+      },
+      {
         title: "DFDS appoints Michael Hansen, ex-Hempel CEO, as President & CEO effective 1 July 2026",
         url: "https://www.marketscreener.com/news/dfds-ceo-steps-down-michael-hansen-to-be-appointed-on-july-1-2026-ce7e5ed3d98df72d",
         source: "MarketScreener",
@@ -290,12 +296,6 @@ export const industryUpdates: IndustryUpdate[] = [
         source: "Seatrade Maritime",
         date: "7 Apr 2026",
       },
-      {
-        title: "DFDS acquires ro-pax Stena Vinga from Stena Line to permanently anchor Jersey-UK and Jersey-France routes",
-        url: "https://www.marinelink.com/news/dfds-buys-ropax-ferry-stena-vinga-stena-538796",
-        source: "Marine Link",
-        date: "23 May 2026",
-      },
     ],
   },
   {
@@ -305,6 +305,12 @@ export const industryUpdates: IndustryUpdate[] = [
     color: "bg-violet-600",
     category: "order",
     newsItems: [
+      {
+        title: "Spectrum of the Seas reroutes to Jeju and Nagasaki as Typhoon Dolphin delays Shanghai return",
+        url: "https://www.royalcaribbeanblog.com/2026/08/02/royal-caribbean-news-round-august-2-2026",
+        source: "Royal Caribbean Blog",
+        date: "2 Aug 2026",
+      },
       {
         title: "Royal Caribbean eyes second Galveston cruise terminal as Legend of the Seas begins Mediterranean sailings",
         url: "https://www.royalcaribbeanblog.com/2026/07/19/royal-caribbean-news-round-july-19-2026",
@@ -316,12 +322,6 @@ export const industryUpdates: IndustryUpdate[] = [
         url: "https://www.prnewswire.com/news-releases/royal-caribbean-officially-welcomes-legend-of-the-seas-to-the-revolutionary-icon-class-built-in-collaboration-with-meyer-turku-302796966.html",
         source: "PR Newswire",
         date: "10 Jun 2026",
-      },
-      {
-        title: "Royal Caribbean opens new Alaska Railroad Terminal in Seward to expand cruise capacity on railbelt corridor",
-        url: "https://www.cruisemapper.com/news",
-        source: "CruiseMapper",
-        date: "2 Jun 2026",
       },
     ],
   },
@@ -387,6 +387,12 @@ export const industryUpdates: IndustryUpdate[] = [
     category: "sustainability",
     newsItems: [
       {
+        title: "Carnival Pride pilots Jotun's HullSkater robot — first proactive hull-cleaning deal in the cruise sector",
+        url: "https://www.carnival-news.com/2026/08/03/carnival-pride-pilots-new-hull-cleaning-technology-to-support-more-sustainable-ship-operations",
+        source: "Carnival Cruise Line",
+        date: "3 Aug 2026",
+      },
+      {
         title: "Carnival and Fincantieri cut steel on Carnival Destiny — first Ace-class ship will be the line's largest ever",
         url: "https://cruiseindustrynews.com/cruise-news/2026/07/carnival-and-fincantieri-cut-steel-for-new-ace-class-destiny/",
         source: "Cruise Industry News",
@@ -397,12 +403,6 @@ export const industryUpdates: IndustryUpdate[] = [
         url: "https://www.prnewswire.com/news-releases/carnival-corporation-brings-cruise-industrys-first-lng-bunkering-to-latin-america--western-caribbean-302787106.html",
         source: "PR Newswire",
         date: "1 Jun 2026",
-      },
-      {
-        title: "Carnival Cruise Line discloses cyber attack that leaked customer data — highlighting maritime sector cybersecurity risk",
-        url: "https://www.yahoo.com/news/us/articles/carnival-cruise-line-cyber-attack-160656271.html",
-        source: "Yahoo News",
-        date: "9 Jun 2026",
       },
     ],
   },
@@ -441,6 +441,12 @@ export const industryUpdates: IndustryUpdate[] = [
     category: "sustainability",
     newsItems: [
       {
+        title: "SLB and Equinor sign multi-year deal to upgrade well stimulation vessel Island Captain for Norwegian Continental Shelf",
+        url: "https://www.marinelink.com/news/slb-equinor-upgrade-vessel-multiyear-541898",
+        source: "Marine Link",
+        date: "6 Aug 2026",
+      },
+      {
         title: "Equinor publishes Q2 2026 financial results amid continued Hormuz-driven energy market volatility",
         url: "https://www.equinor.com/news/20260708-invitation-consensus-estimates-2q2026",
         source: "Equinor",
@@ -451,12 +457,6 @@ export const industryUpdates: IndustryUpdate[] = [
         url: "https://www.equinor.com/news",
         source: "Equinor",
         date: "8 Jun 2026",
-      },
-      {
-        title: "Equinor makes final investment decision on Trollvind — Norway's first large-scale floating offshore wind farm",
-        url: "https://www.hellenicshippingnews.com/equinor-trollvind-floating-offshore-wind-fid/",
-        source: "Hellenic Shipping News",
-        date: "21 May 2026",
       },
     ],
   },
