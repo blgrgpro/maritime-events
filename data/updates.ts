@@ -9,6 +9,12 @@ export const industryUpdates: IndustryUpdate[] = [
     category: "sustainability",
     newsItems: [
       {
+        title: "Maersk posts 20% revenue growth to $15.8bn in Q2 2026, upgrades full-year EBIT guidance to $4.5–6.5bn on structural rate shift",
+        url: "https://www.investing.com/news/company-news/maersk-q2-2026-slides-guidance-upgraded-on-structural-rate-shift-93CH-4857205",
+        source: "Investing.com",
+        date: "13 Aug 2026",
+      },
+      {
         title: "Maersk launches integrated Chile–US East Coast cold chain solution for grapes and other regulated produce",
         url: "https://www.maersk.com/news/articles/2026/07/23/maersk-cold-chain-chile-us-east-coast-produce",
         source: "Maersk",
@@ -20,12 +26,6 @@ export const industryUpdates: IndustryUpdate[] = [
         source: "Mighty Shipping",
         date: "1 Jul 2026",
       },
-      {
-        title: "Maersk prepares contingency $29/share ZIM bid as Hapag-Lloyd's $4.2bn deal faces regulatory scrutiny",
-        url: "https://www.freshplaza.com/north-america/article/9816723/maersk-prepares-backup-bid-for-israel-s-zim-if-hapag-lloyd-deal-fails/",
-        source: "Fresh Plaza",
-        date: "5 Jun 2026",
-      },
     ],
   },
   {
@@ -35,6 +35,12 @@ export const industryUpdates: IndustryUpdate[] = [
     color: "bg-orange-500",
     category: "order",
     newsItems: [
+      {
+        title: "MSC becomes first liner to top 500 secondhand vessel purchases since 2020, fleet nears 7.4M TEU",
+        url: "https://splash247.com/msc-reaches-500-secondhand-acquisitions-in-six-year-buying-blitz/",
+        source: "Splash247",
+        date: "19 Aug 2026",
+      },
       {
         title: "MSC issues new Far East–Europe FAK rates effective 15 August as carriers test peak-season pricing power",
         url: "https://www.msc.com/en/newsroom/customer-advisories/2026/july/pa-trade-from-far-east-to-north-europe-med-and-black-sea",
@@ -47,12 +53,6 @@ export const industryUpdates: IndustryUpdate[] = [
         source: "MSC",
         date: "15 Jul 2026",
       },
-      {
-        title: "MPA Singapore and MSC sign MOU on maritime decarbonisation, digitalisation, innovation and seafarer development",
-        url: "https://www.msc.com/en/newsroom/news/local-news/singapore/2026/june/mpa-and-msc-sign-memorandum-of-understanding-to-advance-sustainable-and-digital-maritime-development",
-        source: "MSC",
-        date: "4 Jun 2026",
-      },
     ],
   },
   {
@@ -62,6 +62,12 @@ export const industryUpdates: IndustryUpdate[] = [
     color: "bg-red-600",
     category: "technology",
     newsItems: [
+      {
+        title: "CMA CGM adds $250/TEU Panama Canal surcharge on Far East trades as El Niño drought forces fresh draft restrictions",
+        url: "https://container-news.com/cma-cgm-updates-panama-canal-surcharge-on-far-east-trades/",
+        source: "Container News",
+        date: "12 Aug 2026",
+      },
       {
         title: "CMA CGM rolls out new Peak Season and dangerous-goods surcharges across Far East trades",
         url: "https://container-news.com/cma-cgm-introduces-pss-on-several-far-east-trades/",
@@ -74,12 +80,6 @@ export const industryUpdates: IndustryUpdate[] = [
         source: "Air Cargo News",
         date: "10 Jul 2026",
       },
-      {
-        title: "CMA CGM Notre Dame makes maiden Singapore call — world's largest French-flagged LNG containership",
-        url: "https://container-news.com/cma-cgm-strengthens-indian-maritime-commitment-with-new-vessel-order/",
-        source: "Container News",
-        date: "1 Jun 2026",
-      },
     ],
   },
   {
@@ -89,6 +89,12 @@ export const industryUpdates: IndustryUpdate[] = [
     color: "bg-yellow-500",
     category: "sustainability",
     newsItems: [
+      {
+        title: "Hapag-Lloyd posts $5.8bn Q2 revenue rebound, ZIM confirms Q4 2026 target close as antitrust approvals advance",
+        url: "https://container-news.com/zim-targets-q4-closing-of-hapag-lloyd-acquisition/",
+        source: "Container News",
+        date: "19 Aug 2026",
+      },
       {
         title: "Maersk and Hapag-Lloyd add Jeddah call to AE15 Asia–Mediterranean service as Red Sea return expands",
         url: "https://gcaptain.com/maersk-and-hapag-lloyd-expand-red-sea-return-with-new-jeddah-call/",
@@ -100,12 +106,6 @@ export const industryUpdates: IndustryUpdate[] = [
         url: "https://splash247.com/netanyahu-and-katz-urge-zim-sale-be-scrapped/",
         source: "Splash247",
         date: "5 Jul 2026",
-      },
-      {
-        title: "ZIM shareholders approve Hapag-Lloyd's $4.2bn all-cash acquisition — combined fleet to top 400 vessels",
-        url: "https://mykn.kuehne-nagel.com/news/article/hapag-lloyd-to-acquire-zim-major-container",
-        source: "Kuehne+Nagel",
-        date: "5 Jun 2026",
       },
     ],
   },
@@ -279,6 +279,12 @@ export const industryUpdates: IndustryUpdate[] = [
     category: "order",
     newsItems: [
       {
+        title: "DFDS launches strategy review under new CEO as Q2 report flags soft July volumes across most corridors",
+        url: "https://www.globenewswire.com/news-release/2026/08/13/3344748/0/en/q2-2026-interim-report-on-track-more-to-do.html",
+        source: "GlobeNewswire",
+        date: "13 Aug 2026",
+      },
+      {
         title: "DFDS Ferry Division head Mathieu Girardin to step down 14 August after four-year tenure",
         url: "https://www.globenewswire.com/news-release/2026/08/06/3340538/0/en/DFDS-HEAD-OF-FERRY-DIVISION-MATHIEU-GIRARDIN-TO-LEAVE.html",
         source: "GlobeNewswire",
@@ -290,12 +296,6 @@ export const industryUpdates: IndustryUpdate[] = [
         source: "MarketScreener",
         date: "1 Jul 2026",
       },
-      {
-        title: "DFDS orders two battery-electric ro-ro ferries for North Sea short-sea operations",
-        url: "https://www.seatrade-maritime.com/keyword/dfds",
-        source: "Seatrade Maritime",
-        date: "7 Apr 2026",
-      },
     ],
   },
   {
@@ -305,6 +305,12 @@ export const industryUpdates: IndustryUpdate[] = [
     color: "bg-violet-600",
     category: "order",
     newsItems: [
+      {
+        title: "Royal Caribbean shares hold near 52-week highs as FY2026 EPS guidance of $17.73–$17.87 signals record earnings",
+        url: "https://www.ad-hoc-news.de/boerse/news/corporate-news/royal-caribbean-stock-holds-firm-as-guidance-targets-record-2026-earnings/69967763",
+        source: "Ad-Hoc News",
+        date: "18 Aug 2026",
+      },
       {
         title: "Spectrum of the Seas reroutes to Jeju and Nagasaki as Typhoon Dolphin delays Shanghai return",
         url: "https://www.royalcaribbeanblog.com/2026/08/02/royal-caribbean-news-round-august-2-2026",
@@ -316,12 +322,6 @@ export const industryUpdates: IndustryUpdate[] = [
         url: "https://www.royalcaribbeanblog.com/2026/07/19/royal-caribbean-news-round-july-19-2026",
         source: "Royal Caribbean Blog",
         date: "19 Jul 2026",
-      },
-      {
-        title: "Royal Caribbean takes delivery of Legend of the Seas — third Icon Class ship with capacity for nearly 10,000",
-        url: "https://www.prnewswire.com/news-releases/royal-caribbean-officially-welcomes-legend-of-the-seas-to-the-revolutionary-icon-class-built-in-collaboration-with-meyer-turku-302796966.html",
-        source: "PR Newswire",
-        date: "10 Jun 2026",
       },
     ],
   },
@@ -387,6 +387,12 @@ export const industryUpdates: IndustryUpdate[] = [
     category: "sustainability",
     newsItems: [
       {
+        title: "Carnival becomes first cruise line to partner with Sneaker Impact on fleet-wide shoe recycling",
+        url: "https://www.carnival-news.com/2026/08/13/carnival-takes-another-step-forward-in-sustainability-as-first-cruise-line-to-partner-with-sneaker-impact",
+        source: "Carnival Cruise Line",
+        date: "13 Aug 2026",
+      },
+      {
         title: "Carnival Pride pilots Jotun's HullSkater robot — first proactive hull-cleaning deal in the cruise sector",
         url: "https://www.carnival-news.com/2026/08/03/carnival-pride-pilots-new-hull-cleaning-technology-to-support-more-sustainable-ship-operations",
         source: "Carnival Cruise Line",
@@ -397,12 +403,6 @@ export const industryUpdates: IndustryUpdate[] = [
         url: "https://cruiseindustrynews.com/cruise-news/2026/07/carnival-and-fincantieri-cut-steel-for-new-ace-class-destiny/",
         source: "Cruise Industry News",
         date: "10 Jul 2026",
-      },
-      {
-        title: "Carnival Corporation pioneers cruise industry's first LNG bunkering in Latin America and Western Caribbean on Carnival Jubilee",
-        url: "https://www.prnewswire.com/news-releases/carnival-corporation-brings-cruise-industrys-first-lng-bunkering-to-latin-america--western-caribbean-302787106.html",
-        source: "PR Newswire",
-        date: "1 Jun 2026",
       },
     ],
   },
@@ -441,6 +441,12 @@ export const industryUpdates: IndustryUpdate[] = [
     category: "sustainability",
     newsItems: [
       {
+        title: "Equinor enters Namibia with 17.4% stake in Chevron-operated Orange Basin exploration licence PEL 90",
+        url: "https://www.equinor.com/news/20260818-equinor-chevron-namibia-exploration-licence",
+        source: "Equinor",
+        date: "18 Aug 2026",
+      },
+      {
         title: "SLB and Equinor sign multi-year deal to upgrade well stimulation vessel Island Captain for Norwegian Continental Shelf",
         url: "https://www.marinelink.com/news/slb-equinor-upgrade-vessel-multiyear-541898",
         source: "Marine Link",
@@ -451,12 +457,6 @@ export const industryUpdates: IndustryUpdate[] = [
         url: "https://www.equinor.com/news/20260708-invitation-consensus-estimates-2q2026",
         source: "Equinor",
         date: "22 Jul 2026",
-      },
-      {
-        title: "Equinor elects Jarle Roth as new Chair of the Board at Corporate Assembly meeting",
-        url: "https://www.equinor.com/news",
-        source: "Equinor",
-        date: "8 Jun 2026",
       },
     ],
   },
